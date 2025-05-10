@@ -1,0 +1,1511 @@
+[2025-04-07T12:35:01.530Z] [INFO] Server monitor starting...
+[2025-04-07T12:35:01.533Z] [INFO] Starting server health checks...
+[2025-04-07T12:35:05.339Z] [WARN] Laravel Server returned status 404
+[2025-04-07T12:35:05.341Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T12:35:05.362Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:35:35.365Z] [INFO] Starting server health checks...
+[2025-04-07T12:35:40.263Z] [WARN] Laravel Server returned status 404
+[2025-04-07T12:35:40.264Z] [WARN] Laravel Server failed health check (2/3)
+[2025-04-07T12:35:40.268Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:36:28.426Z] [INFO] Server monitor starting...
+[2025-04-07T12:36:28.431Z] [INFO] Starting server health checks...
+[2025-04-07T12:36:28.431Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:36:32.384Z] [WARN] Laravel Server returned status 404
+[2025-04-07T12:36:32.385Z] [WARN] Response content: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Not Found</title>
+
+     
+[2025-04-07T12:36:32.386Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T12:36:32.386Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:36:32.389Z] [ERROR] WebSocket Server check failed: connect ECONNREFUSED 127.0.0.1:6001
+[2025-04-07T12:36:32.389Z] [WARN] WebSocket Server failed health check (1/3)
+[2025-04-07T12:37:02.398Z] [INFO] Starting server health checks...
+[2025-04-07T12:37:02.399Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:37:05.771Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:37:05.756694Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:37:05.771Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:37:05.773Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:37:05.776Z] [ERROR] WebSocket Server check failed: connect ECONNREFUSED 127.0.0.1:6001
+[2025-04-07T12:37:05.776Z] [WARN] WebSocket Server failed health check (2/3)
+[2025-04-07T12:37:35.792Z] [INFO] Starting server health checks...
+[2025-04-07T12:37:35.793Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:37:37.211Z] [INFO] Server monitor starting...
+[2025-04-07T12:37:37.215Z] [INFO] Starting server health checks...
+[2025-04-07T12:37:37.216Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:37:39.283Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:37:39.269937Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:37:39.283Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:37:39.284Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:37:39.286Z] [ERROR] WebSocket Server check failed: connect ECONNREFUSED 127.0.0.1:6001
+[2025-04-07T12:37:39.286Z] [WARN] WebSocket Server failed health check (3/3)
+[2025-04-07T12:37:39.286Z] [ERROR] WebSocket Server has failed 3 times, restarting...
+[2025-04-07T12:37:39.287Z] [WARN] Attempting to restart WebSocket Server...
+[2025-04-07T12:37:39.895Z] [ERROR] Failed to kill WebSocket Server process: Command failed: FOR /F "tokens=5" %a in ('netstat -aon ^| find ":6001"') do taskkill /F /PID %a
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+
+[2025-04-07T12:37:41.069Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:37:41.054205Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:37:41.071Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:37:41.071Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:37:41.088Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1.094138}
+[2025-04-07T12:37:41.089Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:38:16.539Z] [INFO] Server monitor starting...
+[2025-04-07T12:38:16.542Z] [INFO] Starting server health checks...
+[2025-04-07T12:38:16.543Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:38:20.049Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:38:20.034269Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:38:20.050Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:38:20.051Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:38:20.067Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":12.6417391}
+[2025-04-07T12:38:20.069Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:38:50.074Z] [INFO] Starting server health checks...
+[2025-04-07T12:38:50.075Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:38:53.465Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:38:53.444164Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:38:53.468Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:38:53.468Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:38:53.475Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":46.0535352}
+[2025-04-07T12:38:53.476Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:39:23.480Z] [INFO] Starting server health checks...
+[2025-04-07T12:39:23.480Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:39:27.070Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:39:27.046661Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:39:27.071Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:39:27.071Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:39:27.077Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":79.6558406}
+[2025-04-07T12:39:27.078Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:39:57.078Z] [INFO] Starting server health checks...
+[2025-04-07T12:39:57.080Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:39:59.902Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:39:59.891661Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:39:59.902Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:39:59.903Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:39:59.907Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":112.4860623}
+[2025-04-07T12:39:59.907Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:40:29.911Z] [INFO] Starting server health checks...
+[2025-04-07T12:40:29.911Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:40:33.452Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:40:33.439323Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:40:33.453Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:40:33.454Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:40:33.459Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":146.0378519}
+[2025-04-07T12:40:33.459Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:41:03.473Z] [INFO] Starting server health checks...
+[2025-04-07T12:41:03.473Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:41:07.418Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:41:07.407231Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:41:07.419Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:41:07.420Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:41:07.424Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":180.0024305}
+[2025-04-07T12:41:07.424Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:41:37.425Z] [INFO] Starting server health checks...
+[2025-04-07T12:41:37.425Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:41:41.217Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:41:41.206997Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:41:41.217Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:41:41.218Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:41:41.221Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":213.800625}
+[2025-04-07T12:41:41.222Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:42:11.258Z] [INFO] Starting server health checks...
+[2025-04-07T12:42:11.279Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:42:16.313Z] [ERROR] Laravel Server check timed out
+[2025-04-07T12:42:16.313Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T12:42:16.317Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:42:16.322Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T12:42:16.324Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":248.9019364}
+[2025-04-07T12:42:16.324Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:42:46.328Z] [INFO] Starting server health checks...
+[2025-04-07T12:42:46.351Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:42:51.371Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:42:51.356752Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:42:51.372Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:42:51.373Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:42:51.378Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":283.9570976}
+[2025-04-07T12:42:51.378Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:43:21.391Z] [INFO] Starting server health checks...
+[2025-04-07T12:43:21.392Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:43:26.402Z] [ERROR] Laravel Server check timed out
+[2025-04-07T12:43:26.402Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T12:43:26.403Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:43:26.406Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T12:43:26.407Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":318.9868149}
+[2025-04-07T12:43:26.408Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:43:56.424Z] [INFO] Starting server health checks...
+[2025-04-07T12:43:56.424Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:44:01.432Z] [ERROR] Laravel Server check timed out
+[2025-04-07T12:44:01.441Z] [WARN] Laravel Server failed health check (3/3)
+[2025-04-07T12:44:01.447Z] [ERROR] Laravel Server has failed 3 times, restarting...
+[2025-04-07T12:44:01.450Z] [WARN] Attempting to restart Laravel Server...
+[2025-04-07T12:44:01.503Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T12:49:41.460Z] [INFO] Server monitor starting...
+[2025-04-07T12:49:41.463Z] [INFO] Starting server health checks...
+[2025-04-07T12:49:41.464Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:49:41.931Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:49:41.915916Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:49:41.932Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:49:41.932Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:49:41.942Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":9.5600403}
+[2025-04-07T12:49:41.944Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:50:11.954Z] [INFO] Starting server health checks...
+[2025-04-07T12:50:11.955Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:50:12.353Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:50:12.342318Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:50:12.353Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:50:12.354Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:50:12.357Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":39.9785763}
+[2025-04-07T12:50:12.358Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:50:42.371Z] [INFO] Starting server health checks...
+[2025-04-07T12:50:42.371Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:50:42.826Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:50:42.814392Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:50:42.826Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:50:42.827Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:50:42.831Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":70.4513843}
+[2025-04-07T12:50:42.831Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:51:12.836Z] [INFO] Starting server health checks...
+[2025-04-07T12:51:12.837Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:51:13.243Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:51:13.232581Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:51:13.243Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:51:13.244Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:51:13.247Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":100.8687566}
+[2025-04-07T12:51:13.248Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:51:43.262Z] [INFO] Starting server health checks...
+[2025-04-07T12:51:43.262Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:51:46.946Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:51:46.924186Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:51:46.950Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:51:46.951Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:51:46.956Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":134.5775615}
+[2025-04-07T12:51:46.957Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:52:16.971Z] [INFO] Starting server health checks...
+[2025-04-07T12:52:16.971Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:52:20.951Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:52:20.935924Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:52:20.951Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:52:20.952Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:52:20.956Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":168.5774694}
+[2025-04-07T12:52:20.957Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:52:50.990Z] [INFO] Starting server health checks...
+[2025-04-07T12:52:51.012Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:52:56.063Z] [ERROR] Laravel Server check timed out
+[2025-04-07T12:52:56.101Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T12:52:56.103Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:52:56.109Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T12:52:56.111Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":203.7315941}
+[2025-04-07T12:52:56.111Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:53:26.123Z] [INFO] Starting server health checks...
+[2025-04-07T12:53:26.124Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:53:31.137Z] [ERROR] Laravel Server check timed out
+[2025-04-07T12:53:31.142Z] [WARN] Laravel Server failed health check (3/3)
+[2025-04-07T12:53:31.143Z] [ERROR] Laravel Server has failed 3 times, restarting...
+[2025-04-07T12:53:31.144Z] [WARN] Attempting to restart Laravel Server...
+[2025-04-07T12:53:31.187Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T12:54:20.466Z] [INFO] Server monitor starting...
+[2025-04-07T12:54:20.470Z] [INFO] Starting server health checks...
+[2025-04-07T12:54:20.471Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:54:24.277Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:54:24.262866Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:54:24.278Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:54:24.279Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:54:24.292Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":12.933161}
+[2025-04-07T12:54:24.294Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:54:54.303Z] [INFO] Starting server health checks...
+[2025-04-07T12:54:54.304Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:54:54.916Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:54:54.897870Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:54:54.916Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:54:54.917Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:54:54.922Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":43.5688753}
+[2025-04-07T12:54:54.923Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:55:24.940Z] [INFO] Starting server health checks...
+[2025-04-07T12:55:24.944Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:55:29.964Z] [ERROR] Laravel Server check timed out
+[2025-04-07T12:55:29.979Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T12:55:29.995Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:55:30.011Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":78.6580375}
+[2025-04-07T12:55:30.018Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:55:30.033Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T12:56:00.050Z] [INFO] Starting server health checks...
+[2025-04-07T12:56:00.064Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:56:05.068Z] [ERROR] Laravel Server check timed out
+[2025-04-07T12:56:05.068Z] [WARN] Laravel Server failed health check (3/3)
+[2025-04-07T12:56:05.069Z] [ERROR] Laravel Server has failed 3 times, restarting...
+[2025-04-07T12:56:05.069Z] [WARN] Attempting to restart Laravel Server...
+[2025-04-07T12:56:05.093Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T12:59:24.371Z] [INFO] Server monitor starting...
+[2025-04-07T12:59:24.373Z] [INFO] Starting server health checks...
+[2025-04-07T12:59:24.373Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:59:24.788Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:59:24.772607Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:59:24.789Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:59:24.789Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:59:24.799Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":9.4488977}
+[2025-04-07T12:59:24.800Z] [INFO] WebSocket Server is healthy
+[2025-04-07T12:59:54.816Z] [INFO] Starting server health checks...
+[2025-04-07T12:59:54.816Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T12:59:55.282Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T12:59:55.266023Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T12:59:55.282Z] [INFO] Laravel Server is healthy
+[2025-04-07T12:59:55.282Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T12:59:55.287Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":39.9393495}
+[2025-04-07T12:59:55.288Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:00:25.292Z] [INFO] Starting server health checks...
+[2025-04-07T13:00:25.292Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:00:29.239Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:00:29.221344Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:00:29.240Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:00:29.240Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:00:29.245Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":73.8973484}
+[2025-04-07T13:00:29.246Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:00:59.250Z] [INFO] Starting server health checks...
+[2025-04-07T13:00:59.250Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:01:04.259Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:01:04.260Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:01:04.260Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:01:04.268Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:01:04.270Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":108.921487}
+[2025-04-07T13:01:04.271Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:01:34.275Z] [INFO] Starting server health checks...
+[2025-04-07T13:01:34.275Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:01:39.074Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:01:39.061645Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:01:39.075Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:01:39.075Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:01:39.080Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":143.7321996}
+[2025-04-07T13:01:39.081Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:02:09.093Z] [INFO] Starting server health checks...
+[2025-04-07T13:02:09.093Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:02:13.205Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:02:13.190162Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:02:13.205Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:02:13.206Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:02:13.210Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":177.8627808}
+[2025-04-07T13:02:13.211Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:02:43.220Z] [INFO] Starting server health checks...
+[2025-04-07T13:02:43.226Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:02:48.241Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:02:48.241Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:02:48.242Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:02:48.245Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:02:48.246Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":212.8988202}
+[2025-04-07T13:02:48.247Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:03:22.633Z] [INFO] Server monitor starting...
+[2025-04-07T13:03:22.664Z] [INFO] Starting server health checks...
+[2025-04-07T13:03:22.665Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:03:27.710Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:03:27.716Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:03:27.725Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:03:27.734Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:03:27.753Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":14.4189595}
+[2025-04-07T13:03:27.757Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:03:57.762Z] [INFO] Starting server health checks...
+[2025-04-07T13:03:57.763Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:03:58.197Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:03:58.180299Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:03:58.198Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:03:58.198Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:03:58.204Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":44.8846107}
+[2025-04-07T13:03:58.205Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:04:28.219Z] [INFO] Starting server health checks...
+[2025-04-07T13:04:28.219Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:04:32.127Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:04:32.111780Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:04:32.128Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:04:32.128Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:04:32.132Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":78.8130472}
+[2025-04-07T13:04:32.132Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:05:02.138Z] [INFO] Starting server health checks...
+[2025-04-07T13:05:02.138Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:05:02.735Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:05:02.719539Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:05:02.736Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:05:02.736Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:05:02.741Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":109.4225374}
+[2025-04-07T13:05:02.744Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:05:32.744Z] [INFO] Starting server health checks...
+[2025-04-07T13:05:32.745Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:05:37.068Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:05:37.056190Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:05:37.068Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:05:37.069Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:05:37.074Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":143.7547918}
+[2025-04-07T13:05:37.075Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:06:07.087Z] [INFO] Starting server health checks...
+[2025-04-07T13:06:07.087Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:06:11.494Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:06:11.480070Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:06:11.495Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:06:11.496Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:06:11.500Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":178.1810123}
+[2025-04-07T13:06:11.500Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:06:41.503Z] [INFO] Starting server health checks...
+[2025-04-07T13:06:41.504Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:06:45.709Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:06:45.692362Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:06:45.710Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:06:45.711Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:06:45.715Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":212.3963755}
+[2025-04-07T13:06:45.715Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:07:15.725Z] [INFO] Starting server health checks...
+[2025-04-07T13:07:15.751Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:07:19.174Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:07:19.164360Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:07:19.175Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:07:19.175Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:07:19.178Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":245.8603655}
+[2025-04-07T13:07:19.179Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:07:49.186Z] [INFO] Starting server health checks...
+[2025-04-07T13:07:49.186Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:07:54.258Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:07:54.282Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:07:54.283Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:07:54.289Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:07:54.297Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":280.9722257}
+[2025-04-07T13:07:54.303Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:08:24.304Z] [INFO] Starting server health checks...
+[2025-04-07T13:08:24.311Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:08:28.282Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:08:28.263728Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:08:28.283Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:08:28.284Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:08:28.288Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":314.9692373}
+[2025-04-07T13:08:28.288Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:08:58.338Z] [INFO] Starting server health checks...
+[2025-04-07T13:08:58.370Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:08:59.307Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:08:59.296101Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:08:59.307Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:08:59.308Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:08:59.312Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":345.993798}
+[2025-04-07T13:08:59.313Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:09:29.329Z] [INFO] Starting server health checks...
+[2025-04-07T13:09:29.330Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:09:34.340Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:09:34.341Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:09:34.342Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:09:34.345Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:09:34.346Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":381.0278519}
+[2025-04-07T13:09:34.347Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:10:04.353Z] [INFO] Starting server health checks...
+[2025-04-07T13:10:04.354Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:10:08.079Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:10:08.056479Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:10:08.130Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:10:08.131Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:10:08.135Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":414.8167397}
+[2025-04-07T13:10:08.136Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:10:34.902Z] [INFO] Server monitor starting...
+[2025-04-07T13:10:34.964Z] [INFO] Starting server health checks...
+[2025-04-07T13:10:34.974Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:10:40.015Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:10:40.017Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:10:40.018Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:10:40.023Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:10:40.036Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":14.7308166}
+[2025-04-07T13:10:40.039Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:11:10.053Z] [INFO] Starting server health checks...
+[2025-04-07T13:11:10.053Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:11:13.086Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:11:13.075005Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:11:13.087Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:11:13.088Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:11:13.092Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":47.7961912}
+[2025-04-07T13:11:13.093Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:11:43.097Z] [INFO] Starting server health checks...
+[2025-04-07T13:11:43.097Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:11:43.704Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:11:43.672328Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:11:43.705Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:11:43.706Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:11:43.711Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":78.4134318}
+[2025-04-07T13:11:43.712Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:12:13.721Z] [INFO] Starting server health checks...
+[2025-04-07T13:12:13.722Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:12:18.731Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:12:18.760Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:12:18.775Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:12:18.798Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":113.4989627}
+[2025-04-07T13:12:18.806Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:12:18.809Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:12:48.612Z] [INFO] Server monitor starting...
+[2025-04-07T13:12:48.617Z] [INFO] Starting server health checks...
+[2025-04-07T13:12:48.618Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:12:53.656Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:12:53.663Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:12:53.671Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:12:53.681Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:12:53.702Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":13.7970599}
+[2025-04-07T13:12:53.713Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:13:23.734Z] [INFO] Starting server health checks...
+[2025-04-07T13:13:23.735Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:13:27.834Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:13:27.820881Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:13:27.835Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:13:27.835Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:13:27.839Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":47.9519816}
+[2025-04-07T13:13:27.840Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:13:57.852Z] [INFO] Starting server health checks...
+[2025-04-07T13:13:57.853Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:14:02.867Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:14:02.867Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:14:02.868Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:14:02.871Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:14:02.872Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":82.9840156}
+[2025-04-07T13:14:02.873Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:20:15.575Z] [INFO] Server monitor starting...
+[2025-04-07T13:20:15.578Z] [INFO] Starting server health checks...
+[2025-04-07T13:20:15.579Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:20:18.900Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:20:18.887171Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:20:18.902Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:20:18.902Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:20:18.912Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":12.5289986}
+[2025-04-07T13:20:18.913Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:20:48.926Z] [INFO] Starting server health checks...
+[2025-04-07T13:20:48.927Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:20:51.842Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:20:51.832818Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:20:51.843Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:20:51.843Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:20:51.847Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":45.4682369}
+[2025-04-07T13:20:51.848Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:21:21.864Z] [INFO] Starting server health checks...
+[2025-04-07T13:21:21.864Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:21:24.230Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:21:24.220859Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:21:24.231Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:21:24.231Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:21:24.234Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":77.8546696}
+[2025-04-07T13:21:24.234Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:21:54.240Z] [INFO] Starting server health checks...
+[2025-04-07T13:21:54.240Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:21:56.790Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:21:56.781710Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:21:56.790Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:21:56.791Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:21:56.795Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":110.4150314}
+[2025-04-07T13:21:56.795Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:22:26.797Z] [INFO] Starting server health checks...
+[2025-04-07T13:22:26.798Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:22:29.120Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:22:29.111647Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:22:29.121Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:22:29.121Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:22:29.125Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":142.7452906}
+[2025-04-07T13:22:29.125Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:22:59.132Z] [INFO] Starting server health checks...
+[2025-04-07T13:22:59.132Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:23:01.473Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:23:01.465547Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:23:01.474Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:23:01.475Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:23:01.478Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":175.0982627}
+[2025-04-07T13:23:01.478Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:23:31.480Z] [INFO] Starting server health checks...
+[2025-04-07T13:23:31.480Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:23:34.326Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:23:34.317882Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:23:34.326Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:23:34.327Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:23:34.332Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":207.9524609}
+[2025-04-07T13:23:34.333Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:24:04.335Z] [INFO] Starting server health checks...
+[2025-04-07T13:24:04.336Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:24:06.545Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:24:06.537434Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:24:06.546Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:24:06.547Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:24:06.549Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":240.1703856}
+[2025-04-07T13:24:06.550Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:24:36.565Z] [INFO] Starting server health checks...
+[2025-04-07T13:24:36.566Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:24:38.783Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:24:38.772314Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:24:38.783Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:24:38.784Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:24:38.787Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":272.4076662}
+[2025-04-07T13:24:38.788Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:25:08.791Z] [INFO] Starting server health checks...
+[2025-04-07T13:25:08.792Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:25:11.116Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:25:11.108341Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:25:11.117Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:25:11.117Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:25:11.121Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":304.7412932}
+[2025-04-07T13:25:11.121Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:25:41.121Z] [INFO] Starting server health checks...
+[2025-04-07T13:25:41.122Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:25:43.283Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:25:43.275262Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:25:43.284Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:25:43.285Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:25:43.288Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":336.9084085}
+[2025-04-07T13:25:43.288Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:26:13.290Z] [INFO] Starting server health checks...
+[2025-04-07T13:26:13.290Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:26:15.603Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:26:15.593633Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:26:15.603Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:26:15.604Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:26:15.607Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":369.2274447}
+[2025-04-07T13:26:15.607Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:26:45.610Z] [INFO] Starting server health checks...
+[2025-04-07T13:26:45.610Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:26:47.803Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:26:47.793701Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:26:47.803Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:26:47.804Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:26:47.807Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":401.4283174}
+[2025-04-07T13:26:47.808Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:27:17.809Z] [INFO] Starting server health checks...
+[2025-04-07T13:27:17.809Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:27:20.237Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:27:20.226827Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:27:20.238Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:27:20.239Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:27:20.242Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":433.8626843}
+[2025-04-07T13:27:20.242Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:27:50.256Z] [INFO] Starting server health checks...
+[2025-04-07T13:27:50.256Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:27:52.322Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:27:52.313355Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:27:52.322Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:27:52.323Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:27:52.326Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":465.9465506}
+[2025-04-07T13:27:52.326Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:28:22.329Z] [INFO] Starting server health checks...
+[2025-04-07T13:28:22.330Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:28:24.642Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:28:24.630039Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:28:24.642Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:28:24.643Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:28:24.646Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":498.2665397}
+[2025-04-07T13:28:24.646Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:28:54.655Z] [INFO] Starting server health checks...
+[2025-04-07T13:28:54.657Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:28:57.062Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:28:57.050913Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:28:57.062Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:28:57.063Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:28:57.066Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":530.6869015}
+[2025-04-07T13:28:57.066Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:29:27.077Z] [INFO] Starting server health checks...
+[2025-04-07T13:29:27.077Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:29:29.141Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:29:29.133275Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:29:29.141Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:29:29.142Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:29:29.145Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":562.7659984}
+[2025-04-07T13:29:29.145Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:29:59.156Z] [INFO] Starting server health checks...
+[2025-04-07T13:29:59.157Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:30:01.551Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:30:01.541319Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:30:01.551Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:30:01.552Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:30:01.555Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":595.1761387}
+[2025-04-07T13:30:01.555Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:30:31.555Z] [INFO] Starting server health checks...
+[2025-04-07T13:30:31.555Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:30:33.927Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:30:33.919136Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:30:33.927Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:30:33.928Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:30:33.931Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":627.5516736}
+[2025-04-07T13:30:33.931Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:31:03.945Z] [INFO] Starting server health checks...
+[2025-04-07T13:31:03.945Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:31:06.357Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:31:06.349326Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:31:06.357Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:31:06.358Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:31:06.361Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":659.9816536}
+[2025-04-07T13:31:06.361Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:31:36.370Z] [INFO] Starting server health checks...
+[2025-04-07T13:31:36.371Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:31:38.553Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:31:38.544948Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:31:38.553Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:31:38.554Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:31:38.557Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":692.1774842}
+[2025-04-07T13:31:38.557Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:32:08.561Z] [INFO] Starting server health checks...
+[2025-04-07T13:32:08.564Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:32:10.946Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:32:10.938751Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:32:10.947Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:32:10.948Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:32:10.950Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":724.5721513}
+[2025-04-07T13:32:10.951Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:32:40.954Z] [INFO] Starting server health checks...
+[2025-04-07T13:32:40.954Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:32:43.982Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:32:43.974313Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:32:43.982Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:32:43.983Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:32:43.985Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":757.6071159}
+[2025-04-07T13:32:43.986Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:33:13.997Z] [INFO] Starting server health checks...
+[2025-04-07T13:33:13.997Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:33:16.359Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:33:16.350938Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:33:16.359Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:33:16.360Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:33:16.363Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":789.9836838}
+[2025-04-07T13:33:16.363Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:33:46.370Z] [INFO] Starting server health checks...
+[2025-04-07T13:33:46.371Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:33:48.701Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:33:48.691767Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:33:48.701Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:33:48.703Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:33:48.705Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":822.3264925}
+[2025-04-07T13:33:48.706Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:34:18.715Z] [INFO] Starting server health checks...
+[2025-04-07T13:34:18.715Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:34:21.026Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:34:21.017160Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:34:21.026Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:34:21.027Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:34:21.030Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":854.6507207}
+[2025-04-07T13:34:21.030Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:34:51.040Z] [INFO] Starting server health checks...
+[2025-04-07T13:34:51.041Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:34:53.160Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:34:53.151404Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:34:53.160Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:34:53.161Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:34:53.164Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":886.7851538}
+[2025-04-07T13:34:53.164Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:35:23.170Z] [INFO] Starting server health checks...
+[2025-04-07T13:35:23.170Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:35:25.378Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:35:25.369485Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:35:25.378Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:35:25.379Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:35:25.382Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":919.0029448}
+[2025-04-07T13:35:25.382Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:35:55.388Z] [INFO] Starting server health checks...
+[2025-04-07T13:35:55.388Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:35:57.485Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:35:57.476277Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:35:57.485Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:35:57.486Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:35:57.489Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":951.1103268}
+[2025-04-07T13:35:57.490Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:36:27.493Z] [INFO] Starting server health checks...
+[2025-04-07T13:36:27.494Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:36:29.856Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:36:29.846161Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:36:29.857Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:36:29.858Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:36:29.860Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":983.4811191}
+[2025-04-07T13:36:29.861Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:36:59.873Z] [INFO] Starting server health checks...
+[2025-04-07T13:36:59.873Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:37:02.071Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:37:02.062969Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:37:02.071Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:37:02.072Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:37:02.075Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1015.6955952}
+[2025-04-07T13:37:02.075Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:37:32.090Z] [INFO] Starting server health checks...
+[2025-04-07T13:37:32.091Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:37:37.096Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:37:37.097Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:37:37.098Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:37:37.101Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:37:37.101Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1050.7221517}
+[2025-04-07T13:37:37.102Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:38:07.109Z] [INFO] Starting server health checks...
+[2025-04-07T13:38:07.110Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:38:10.057Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:38:10.045297Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:38:10.057Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:38:10.058Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:38:10.061Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1083.6817488}
+[2025-04-07T13:38:10.061Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:38:40.076Z] [INFO] Starting server health checks...
+[2025-04-07T13:38:40.112Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:38:44.181Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:38:44.167854Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:38:44.181Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:38:44.182Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:38:44.185Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1117.8065964}
+[2025-04-07T13:38:44.185Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:39:14.189Z] [INFO] Starting server health checks...
+[2025-04-07T13:39:14.189Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:39:17.073Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:39:17.063306Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:39:17.074Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:39:17.075Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:39:17.077Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1150.698809}
+[2025-04-07T13:39:17.078Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:39:47.088Z] [INFO] Starting server health checks...
+[2025-04-07T13:39:47.088Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:39:49.907Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:39:49.895634Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:39:49.907Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:39:49.908Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:39:49.911Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1183.5319321}
+[2025-04-07T13:39:49.911Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:40:19.913Z] [INFO] Starting server health checks...
+[2025-04-07T13:40:19.915Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:40:24.923Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:40:24.924Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:40:24.924Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:40:24.927Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:40:24.928Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":1218.5489139}
+[2025-04-07T13:40:24.931Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:40:54.932Z] [INFO] Starting server health checks...
+[2025-04-07T13:40:54.932Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:40:59.967Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:40:59.977Z] [WARN] Laravel Server failed health check (3/3)
+[2025-04-07T13:40:59.978Z] [ERROR] Laravel Server has failed 3 times, restarting...
+[2025-04-07T13:40:59.979Z] [WARN] Attempting to restart Laravel Server...
+[2025-04-07T13:41:00.024Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:42:19.909Z] [ERROR] Failed to kill Laravel Server process: Command failed: FOR /F "tokens=5" %a in ('netstat -aon ^| find ":8000"') do taskkill /F /PID %a
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process "8168" not found.
+ERROR: The process "8168" not found.
+ERROR: The process "8168" not found.
+ERROR: The process "8168" not found.
+ERROR: The process "8168" not found.
+ERROR: The process "8168" not found.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 0 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 16736 could not be terminated.
+Reason: There is no running instance of the task.
+ERROR: The process "16736" not found.
+ERROR: The process "16736" not found.
+ERROR: The process "16736" not found.
+ERROR: The process "16736" not found.
+
+[2025-04-07T13:49:06.481Z] [INFO] Server monitor starting...
+[2025-04-07T13:49:06.485Z] [INFO] Starting server health checks...
+[2025-04-07T13:49:06.486Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:49:11.523Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:49:11.525Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:49:11.526Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:49:11.530Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:49:11.540Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":15.1718244}
+[2025-04-07T13:49:11.541Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:49:41.545Z] [INFO] Starting server health checks...
+[2025-04-07T13:49:41.546Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:49:43.992Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:49:43.983837Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:49:43.993Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:49:43.993Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:49:43.998Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":47.6363692}
+[2025-04-07T13:49:43.999Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:50:13.999Z] [INFO] Starting server health checks...
+[2025-04-07T13:50:14.000Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:50:14.281Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:50:14.273175Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:50:14.282Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:50:14.282Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:50:14.285Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":77.9232541}
+[2025-04-07T13:50:14.285Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:50:44.290Z] [INFO] Starting server health checks...
+[2025-04-07T13:50:44.291Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:50:47.815Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:50:47.805740Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:50:47.816Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:50:47.816Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:50:47.821Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":111.4590436}
+[2025-04-07T13:50:47.822Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:51:17.836Z] [INFO] Starting server health checks...
+[2025-04-07T13:51:17.837Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:51:21.031Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:51:21.021628Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:51:21.032Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:51:21.033Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:51:21.037Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":144.6750264}
+[2025-04-07T13:51:21.038Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:51:51.040Z] [INFO] Starting server health checks...
+[2025-04-07T13:51:51.043Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:51:56.049Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:51:56.049Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:51:56.050Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:51:56.052Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:51:56.054Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":179.6920695}
+[2025-04-07T13:51:56.054Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:52:26.061Z] [INFO] Starting server health checks...
+[2025-04-07T13:52:26.061Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:52:29.364Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:52:29.355336Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:52:29.365Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:52:29.366Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:52:29.370Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":213.0081064}
+[2025-04-07T13:52:29.370Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:52:59.380Z] [INFO] Starting server health checks...
+[2025-04-07T13:52:59.380Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:53:02.156Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:53:02.144003Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:53:02.156Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:53:02.157Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:53:02.161Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":245.7993954}
+[2025-04-07T13:53:02.161Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:53:32.170Z] [INFO] Starting server health checks...
+[2025-04-07T13:53:32.170Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:53:36.730Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:53:36.719707Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:53:36.731Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:53:36.732Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:53:36.735Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":280.3737889}
+[2025-04-07T13:53:36.736Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:54:01.513Z] [INFO] Server monitor starting...
+[2025-04-07T13:54:01.516Z] [INFO] Starting server health checks...
+[2025-04-07T13:54:01.516Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:54:06.542Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:54:06.543Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:54:06.543Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:54:06.546Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:54:06.557Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":14.1356885}
+[2025-04-07T13:54:06.558Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:54:36.568Z] [INFO] Starting server health checks...
+[2025-04-07T13:54:36.568Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:54:41.408Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:54:41.394095Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:54:41.408Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:54:41.409Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:54:41.413Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":48.9992346}
+[2025-04-07T13:54:41.414Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:55:11.423Z] [INFO] Starting server health checks...
+[2025-04-07T13:55:11.424Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:55:16.441Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:55:16.442Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:55:16.442Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:55:16.444Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:55:16.446Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":84.0323004}
+[2025-04-07T13:55:16.447Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:55:46.451Z] [INFO] Starting server health checks...
+[2025-04-07T13:55:46.452Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:55:47.505Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:55:47.492488Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:55:47.506Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:55:47.506Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:55:47.510Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":115.0971048}
+[2025-04-07T13:55:47.511Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:56:17.526Z] [INFO] Starting server health checks...
+[2025-04-07T13:56:17.526Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:56:22.620Z] [ERROR] Laravel Server check timed out
+[2025-04-07T13:56:22.755Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T13:56:22.767Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:56:22.787Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T13:56:22.792Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":150.3742084}
+[2025-04-07T13:56:22.805Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:56:52.826Z] [INFO] Starting server health checks...
+[2025-04-07T13:56:52.827Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:56:56.163Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:56:56.152696Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:56:56.164Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:56:56.164Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:56:56.168Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":183.7536348}
+[2025-04-07T13:56:56.168Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:57:26.176Z] [INFO] Starting server health checks...
+[2025-04-07T13:57:26.178Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:57:30.825Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:57:30.814512Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:57:30.826Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:57:30.827Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:57:30.830Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":218.4171581}
+[2025-04-07T13:57:30.831Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:58:00.840Z] [INFO] Starting server health checks...
+[2025-04-07T13:58:00.841Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:58:04.978Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:58:06.258050Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:58:04.978Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:58:04.979Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:58:04.982Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":252.5694008}
+[2025-04-07T13:58:04.983Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:58:36.281Z] [INFO] Starting server health checks...
+[2025-04-07T13:58:36.282Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:58:40.706Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:58:40.688002Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:58:40.707Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:58:40.708Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:58:40.713Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":287.0069498}
+[2025-04-07T13:58:40.714Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:59:10.725Z] [INFO] Starting server health checks...
+[2025-04-07T13:59:10.727Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T13:59:14.885Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T13:59:14.872992Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T13:59:14.885Z] [INFO] Laravel Server is healthy
+[2025-04-07T13:59:14.888Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T13:59:14.892Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":321.1870239}
+[2025-04-07T13:59:14.893Z] [INFO] WebSocket Server is healthy
+[2025-04-07T13:59:58.579Z] [INFO] Server monitor starting...
+[2025-04-07T13:59:58.583Z] [INFO] Starting server health checks...
+[2025-04-07T13:59:58.583Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:00:03.609Z] [ERROR] Laravel Server check timed out
+[2025-04-07T14:00:03.610Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T14:00:03.611Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:00:03.615Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T14:00:03.627Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":14.2973774}
+[2025-04-07T14:00:03.629Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:00:33.633Z] [INFO] Starting server health checks...
+[2025-04-07T14:00:33.634Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:00:35.366Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:00:35.357045Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:00:35.367Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:00:35.367Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:00:35.371Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":46.050473}
+[2025-04-07T14:00:35.372Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:01:05.391Z] [INFO] Starting server health checks...
+[2025-04-07T14:01:05.401Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:01:09.779Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:01:09.770265Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:01:09.780Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:01:09.780Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:01:09.783Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":80.4622094}
+[2025-04-07T14:01:09.783Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:01:39.793Z] [INFO] Starting server health checks...
+[2025-04-07T14:01:39.794Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:01:43.813Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:01:43.803218Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:01:43.813Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:01:43.814Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:01:43.817Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":114.496782}
+[2025-04-07T14:01:43.818Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:02:13.819Z] [INFO] Starting server health checks...
+[2025-04-07T14:02:13.820Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:02:16.960Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:02:16.947474Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:02:16.960Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:02:16.961Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:02:16.966Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":147.6448992}
+[2025-04-07T14:02:16.967Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:02:35.552Z] [INFO] Server monitor starting...
+[2025-04-07T14:02:35.555Z] [INFO] Starting server health checks...
+[2025-04-07T14:02:35.556Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:02:40.438Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:02:40.427016Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:02:40.439Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:02:40.439Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:02:40.449Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":14.0122269}
+[2025-04-07T14:02:40.451Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:03:10.457Z] [INFO] Starting server health checks...
+[2025-04-07T14:03:10.458Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:03:14.463Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:03:14.445287Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:03:14.464Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:03:14.464Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:03:14.469Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":48.0348634}
+[2025-04-07T14:03:14.470Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:03:44.485Z] [INFO] Starting server health checks...
+[2025-04-07T14:03:44.485Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:03:48.939Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:03:48.860675Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:03:48.968Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:03:48.968Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:03:48.982Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":82.5462137}
+[2025-04-07T14:03:48.987Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:04:19.004Z] [INFO] Starting server health checks...
+[2025-04-07T14:04:19.006Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:04:24.021Z] [ERROR] Laravel Server check timed out
+[2025-04-07T14:04:24.031Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T14:04:24.032Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:04:24.041Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T14:04:24.043Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":117.6074813}
+[2025-04-07T14:04:24.044Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:04:54.055Z] [INFO] Starting server health checks...
+[2025-04-07T14:04:54.057Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:04:58.281Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:04:58.260872Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:04:58.283Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:04:58.284Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:04:58.290Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":151.8537327}
+[2025-04-07T14:04:58.291Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:05:28.303Z] [INFO] Starting server health checks...
+[2025-04-07T14:05:28.304Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:05:32.475Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:05:32.461152Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:05:32.475Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:05:32.476Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:05:32.480Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":186.0447874}
+[2025-04-07T14:05:32.480Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:06:02.494Z] [INFO] Starting server health checks...
+[2025-04-07T14:06:02.494Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:06:06.389Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:06:06.372147Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:06:06.389Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:06:06.391Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:06:06.395Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":219.9599811}
+[2025-04-07T14:06:06.396Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:06:36.401Z] [INFO] Starting server health checks...
+[2025-04-07T14:06:36.402Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:06:41.050Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:06:41.037840Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:06:41.051Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:06:41.052Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:06:41.055Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":254.6204444}
+[2025-04-07T14:06:41.056Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:07:11.071Z] [INFO] Starting server health checks...
+[2025-04-07T14:07:11.071Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:07:14.068Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:07:14.056037Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:07:14.069Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:07:14.070Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:07:14.073Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":287.638565}
+[2025-04-07T14:07:14.074Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:07:44.164Z] [INFO] Starting server health checks...
+[2025-04-07T14:07:44.293Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:07:47.654Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:07:47.641793Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:07:47.654Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:07:47.655Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:07:47.658Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":321.2237131}
+[2025-04-07T14:07:47.659Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:08:17.660Z] [INFO] Starting server health checks...
+[2025-04-07T14:08:17.661Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:08:20.892Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:08:20.876186Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:08:20.892Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:08:20.893Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:08:20.896Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":354.4614955}
+[2025-04-07T14:08:20.897Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:08:50.899Z] [INFO] Starting server health checks...
+[2025-04-07T14:08:50.899Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:08:54.063Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:08:54.050564Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:08:54.063Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:08:54.065Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:08:54.067Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":387.6328293}
+[2025-04-07T14:08:54.068Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:09:24.076Z] [INFO] Starting server health checks...
+[2025-04-07T14:09:24.077Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:09:26.736Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:09:26.724607Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:09:26.737Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:09:26.738Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:09:26.740Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":420.3057745}
+[2025-04-07T14:09:26.741Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:09:56.748Z] [INFO] Starting server health checks...
+[2025-04-07T14:09:56.748Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:09:59.828Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:09:59.816664Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:09:59.828Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:09:59.829Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:09:59.832Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":453.396974}
+[2025-04-07T14:09:59.832Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:10:30.543Z] [INFO] Server monitor starting...
+[2025-04-07T14:10:30.549Z] [INFO] Starting server health checks...
+[2025-04-07T14:10:30.549Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:10:35.587Z] [ERROR] Laravel Server check timed out
+[2025-04-07T14:10:35.594Z] [WARN] Laravel Server failed health check (1/3)
+[2025-04-07T14:10:35.599Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:10:35.611Z] [ERROR] Laravel Server check failed: socket hang up
+[2025-04-07T14:10:35.636Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":14.3139876}
+[2025-04-07T14:10:35.640Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:11:05.658Z] [INFO] Starting server health checks...
+[2025-04-07T14:11:05.658Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:11:06.180Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:11:06.165769Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:11:06.180Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:11:06.181Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:11:06.186Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":44.8814498}
+[2025-04-07T14:11:06.187Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:11:36.198Z] [INFO] Starting server health checks...
+[2025-04-07T14:11:36.198Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:11:36.573Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:11:36.558797Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:11:36.574Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:11:36.574Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:11:36.577Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":75.2731468}
+[2025-04-07T14:11:36.577Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:12:06.591Z] [INFO] Starting server health checks...
+[2025-04-07T14:12:06.592Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:12:07.033Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:12:07.019097Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:12:07.033Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:12:07.034Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:12:07.038Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":105.7341595}
+[2025-04-07T14:12:07.039Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:12:37.046Z] [INFO] Starting server health checks...
+[2025-04-07T14:12:37.047Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:12:37.498Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:12:37.484899Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:12:37.498Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:12:37.499Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:12:37.503Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":136.198942}
+[2025-04-07T14:12:37.504Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:13:07.510Z] [INFO] Starting server health checks...
+[2025-04-07T14:13:07.511Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:13:08.045Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:13:08.031866Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:13:08.045Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:13:08.046Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:13:08.050Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":166.7463551}
+[2025-04-07T14:13:08.051Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:13:38.062Z] [INFO] Starting server health checks...
+[2025-04-07T14:13:38.063Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:13:38.382Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:13:38.370775Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:13:38.383Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:13:38.384Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:13:38.387Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":197.0830265}
+[2025-04-07T14:13:38.387Z] [INFO] WebSocket Server is healthy
+[2025-04-07T14:14:08.394Z] [INFO] Starting server health checks...
+[2025-04-07T14:14:08.395Z] [INFO] Checking health of Laravel Server at http://127.0.0.1:8000/api/health...
+[2025-04-07T14:14:08.783Z] [INFO] Laravel Server is healthy: {"status":"ok","timestamp":"2025-04-07T14:14:08.757753Z","php_version":"8.2.12","laravel_version":"12.7.2","environment":"local"}
+[2025-04-07T14:14:08.783Z] [INFO] Laravel Server is healthy
+[2025-04-07T14:14:08.785Z] [INFO] Checking health of WebSocket Server at http://127.0.0.1:6001/health...
+[2025-04-07T14:14:08.789Z] [INFO] WebSocket Server is healthy: {"status":"OK","uptime":227.4847249}
+[2025-04-07T14:14:08.789Z] [INFO] WebSocket Server is healthy

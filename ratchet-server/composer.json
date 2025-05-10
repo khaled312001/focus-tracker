@@ -1,0 +1,14 @@
+{
+    "name": "focus-tracker/ratchet-server",
+    "description": "Standalone Ratchet WebSocket server for Focus Tracker",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "cboden/ratchet": "^0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FocusTracker\\RatchetServer\\": "src/"
+        }
+    }
+} 

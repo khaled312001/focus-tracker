@@ -1,0 +1,744 @@
+2025-04-08 18:04:01,150 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 18:04:01,151 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:04:01,152 - INFO -  * Restarting with stat
+2025-04-08 18:04:06,024 - WARNING -  * Debugger is active!
+2025-04-08 18:04:06,033 - INFO -  * Debugger PIN: 931-848-929
+2025-04-08 18:43:15,735 - focus_server - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 18:43:15,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 18:43:15,751 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:48:15,944 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 18:48:15,975 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 18:48:15,975 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:48:18,483 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:48:18] "GET /health HTTP/1.1" 200 -
+2025-04-08 18:48:26,687 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:48:26,688 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:48:26] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:48:31,299 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:48:31] "GET /health HTTP/1.1" 200 -
+2025-04-08 18:48:59,116 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:48:59,117 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:48:59] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:49:01,604 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:49:01,605 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:49:01] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:49:04,149 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:49:04,150 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:49:04] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:49:06,641 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:49:06,641 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:49:06] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:49:09,209 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:49:09,209 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:49:09] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:49:11,681 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:49:11,682 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:49:11] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:49:14,271 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:49:14,272 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:49:14] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:49:51,460 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\focus_server.py", line 233, in analyze_focus_endpoint
+    image_data = request.get_json()
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AIA\Downloads\focus-tracker\focus-tracker\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+    ...<2 lines>...
+    )
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-04-08 18:49:51,461 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:49:51] "[35m[1mPOST /analyze-focus HTTP/1.1[0m" 500 -
+2025-04-08 18:50:14,427 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:14] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:14,675 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:50:14,676 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:14] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:50:19,817 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:19] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:20,316 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:50:20,319 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:20] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:50:25,845 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:25] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:27,393 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:27] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:50:33,375 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:33] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:33,611 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:50:33,612 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:33] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:50:40,520 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:40] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:40,923 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:50:40,924 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:40] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:50:45,968 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:45] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:46,236 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:50:46,238 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:46] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:50:51,307 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:51] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:51,607 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:50:51,608 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:50:56,658 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:56] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:50:57,128 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:50:57,129 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:50:57] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:06,972 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:06] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:51:07,192 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:51:07,193 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:07] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:17,057 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:17] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:51:17,324 - __main__ - WARNING - No face detected
+2025-04-08 18:51:17,325 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:17] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:22,773 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:22] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:51:23,002 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:51:23,003 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:23] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:23,042 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:51:23,043 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:23] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:30,357 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:30] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:51:30,627 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:51:30,628 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:30] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:42,684 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:42] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:51:42,903 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:51:42,904 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:42] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:47,692 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:51:47,693 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:47] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:51:47,956 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:47] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 18:51:48,312 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 18:51:48,314 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:51:48] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:58:49,751 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 18:58:49,787 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 18:58:49,787 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:58:51,322 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:58:51] "GET /health HTTP/1.1" 200 -
+2025-04-08 18:59:04,246 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 18:59:04] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:05:00,581 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 19:05:00,693 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 19:05:00,693 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 19:05:02,695 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:05:02] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:05:16,408 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:05:16] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:13:23,856 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 19:13:23,897 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 19:13:23,897 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 19:13:26,334 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:13:26] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:13:39,215 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:13:39] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:22:35,615 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 19:22:35,644 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 19:22:35,644 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 19:22:37,334 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:22:37] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:22:50,376 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:22:50] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:26:28,958 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:26:28] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:26:30,013 - __main__ - WARNING - No face detected
+2025-04-08 19:26:30,016 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:26:30] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:34:34,784 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:34:34] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:34:35,091 - __main__ - WARNING - No face detected
+2025-04-08 19:34:35,092 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:34:35] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:34:40,174 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:34:40] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:34:40,382 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:34:40,383 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:34:40] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:35:18,672 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:35:18] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:35:19,121 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:35:19,123 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:35:19] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:36:22,240 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:36:22] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:36:22,726 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:36:22,748 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:36:22] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:36:27,872 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:36:27] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:36:28,146 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:36:28,147 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:36:28] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:37:15,321 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:37:15] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:37:15,585 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:37:15,586 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:37:15] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:37:25,468 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:37:25] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:37:25,770 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:37:25,771 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:37:25] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:37:46,902 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:37:46] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:37:47,202 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:37:47,203 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:37:47] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:38:47,518 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:38:47] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:38:47,802 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:38:47,803 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:38:47] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:38:59,463 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:38:59] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:39:00,004 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:39:00,005 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:39:00] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:39:51,486 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:39:51] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:39:51,852 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:39:51,853 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:39:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:41:00,345 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:00] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:41:00,603 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:41:00,605 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:00] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:41:15,971 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:15] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:41:16,240 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:41:16,241 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:16] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:41:21,392 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:21] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:41:21,841 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:41:21,842 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:21] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:41:44,295 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:44] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:41:44,593 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:41:44,594 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:41:44] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:43:33,724 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:43:33] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:43:34,074 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:43:34,076 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:43:34] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:44:28,253 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:44:28] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:44:28,877 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:44:28] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:44:38,903 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:44:38] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:44:39,196 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:44:39,197 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:44:39] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:48:06,337 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:48:06] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:48:06,661 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:48:06,663 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:48:06] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:48:23,669 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:48:23] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:48:23,951 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:48:23,952 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:48:23] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:52:08,956 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 19:52:08,997 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 19:52:08,997 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 19:52:10,074 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:52:10] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:52:10,530 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:52:10,532 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:52:10] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:52:10,835 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:52:10] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:52:24,445 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:52:24] "GET /health HTTP/1.1" 200 -
+2025-04-08 19:53:20,115 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:53:20] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:53:21,003 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:53:21,011 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:53:21] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:53:44,161 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:53:44] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:53:46,432 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:53:46] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:53:57,664 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:53:57] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:53:58,299 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:53:58,301 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:53:58] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:54:13,259 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:54:13] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:54:13,925 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:54:13,926 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:54:13] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:54:49,828 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:54:49] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:54:50,295 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:54:50,296 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:54:50] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:57:24,025 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:57:24] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:57:24,272 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:57:24,273 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:57:24] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:57:46,202 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:57:46] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:57:46,503 - __main__ - WARNING - No face detected
+2025-04-08 19:57:46,504 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:57:46] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:57:51,590 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:57:51] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:57:51,838 - __main__ - WARNING - No face detected
+2025-04-08 19:57:51,838 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:57:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:58:13,506 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:58:13] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:58:13,766 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:58:13,767 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:58:13] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:59:33,288 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:59:33] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:59:33,503 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:59:33,504 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:59:33] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 19:59:38,556 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:59:38] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 19:59:38,822 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 19:59:38,823 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 19:59:38] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:00:11,627 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:11] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:00:12,449 - __main__ - WARNING - No face detected
+2025-04-08 20:00:12,450 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:12] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:00:30,458 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:30] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:00:31,052 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:31] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:00:34,128 - __main__ - WARNING - No face detected
+2025-04-08 20:00:34,129 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:34] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:00:36,090 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:36] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:00:36,290 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:00:36,291 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:36] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:00:39,485 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:00:39,486 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:39] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:00:41,339 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:41] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:00:41,562 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:00:41,563 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:41] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:00:51,177 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:51] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:00:51,456 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:00:51,457 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:00:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:02:22,633 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:02:22] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:02:23,184 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:02:23,184 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:02:23] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:04:06,183 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:06] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:04:06,402 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:04:06,403 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:06] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:04:24,553 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:24] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:04:24,894 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:24] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:04:29,942 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:29] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:04:30,303 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:30] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:04:37,983 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:37] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:04:38,395 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:38] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:04:41,167 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:04:41,168 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:41] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:04:48,869 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:48] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:04:49,125 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:04:49,125 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:04:49] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:05:25,589 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:05:25] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:05:25,985 - __main__ - WARNING - No face detected
+2025-04-08 20:05:25,985 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:05:25] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:06:40,509 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:06:40] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:06:40,718 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:06:40,719 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:06:40] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:06:45,790 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:06:45] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:06:46,050 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:06:46,051 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:06:46] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:07:20,826 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:07:20] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:07:21,116 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:07:21,118 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:07:21] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:07:35,152 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:07:35] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:07:35,591 - __main__ - WARNING - No face detected
+2025-04-08 20:07:35,592 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:07:35] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:08:32,135 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:08:32] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:08:32,475 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:08:32,476 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:08:32] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:08:35,630 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:08:35,632 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:08:35] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:09:48,051 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:09:48] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:09:48,512 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:09:48,514 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:09:48] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:09:53,653 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:09:53] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:09:54,326 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:09:54,329 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:09:54] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:22,042 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:22] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:10:23,342 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:23,343 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:23] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:27,167 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:27,168 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:27] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:28,437 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:28] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:10:29,090 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:29,091 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:29] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:32,793 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:32,794 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:32] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:34,225 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:34] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:10:34,724 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:34,726 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:34] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:38,678 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:38,679 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:38] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:39,800 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:39] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:10:40,371 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:40,373 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:40] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:44,276 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:44,278 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:44] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:45,543 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:45] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:10:46,020 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:46,021 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:46] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:50,013 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:50,015 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:50] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:51,188 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:51] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:10:51,853 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:10:51,855 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:10:59,859 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:10:59] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:11:00,882 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:11:00,888 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:11:00] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:11:06,007 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:11:06] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:11:06,549 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:11:06,552 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:11:06] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:14:05,329 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:14:05] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:14:05,791 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:14:05,793 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:14:05] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:15:06,330 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 20:15:06,389 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 20:15:06,389 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 20:15:06,663 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:15:06] "GET /health HTTP/1.1" 200 -
+2025-04-08 20:15:08,755 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:15:08] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:15:09,223 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:15:09,227 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:15:09] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:15:20,517 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:15:20] "GET /health HTTP/1.1" 200 -
+2025-04-08 20:15:57,630 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:15:57] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:15:58,031 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:15:58,032 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:15:58] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:18:08,460 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:18:08] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:18:08,901 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:18:08,903 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:18:08] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:18:48,935 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:18:48] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:18:49,456 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:18:49,457 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:18:49] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:18:54,536 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:18:54] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:18:54,957 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:18:54,958 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:18:54] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:19:30,956 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:19:30] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:19:31,310 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:19:31,311 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:19:31] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:19:36,428 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:19:36] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:19:36,867 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:19:36,869 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:19:36] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:19:42,011 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:19:42] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:19:43,036 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:19:43,040 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:19:43] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:19:44,051 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:19:44,052 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:19:44] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:21:53,158 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:21:53] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:21:54,340 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:21:54,364 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:21:54] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:21:58,923 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:21:58,926 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:21:58] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:21:59,567 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:21:59] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:22:00,267 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:22:00,270 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:22:00] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:25:36,232 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:25:36] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:25:37,818 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:25:37,820 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:25:37] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:29:52,904 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 20:29:53,010 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 20:29:53,010 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 20:29:53,504 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:29:53] "GET /health HTTP/1.1" 200 -
+2025-04-08 20:30:14,378 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:30:14] "GET /health HTTP/1.1" 200 -
+2025-04-08 20:32:46,508 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:32:46] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:32:47,311 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:32:47,316 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:32:47] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:32:52,522 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:32:52] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:32:53,908 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:32:53,910 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:32:53] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:32:57,838 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:32:57] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:33:29,249 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:33:29] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:33:29,686 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:33:29,688 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:33:29] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:33:34,843 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:33:34] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:33:35,552 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:33:35,554 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:33:35] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:35:05,385 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:35:05] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:35:06,152 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:35:06,154 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:35:06] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:35:11,271 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:35:11] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:35:12,405 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:35:12,406 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:35:12] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:37:15,687 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:37:15] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:37:17,833 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:37:17,839 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:37:17] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:37:23,190 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:37:23] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:37:24,062 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:37:24,069 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:37:24] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:37:29,285 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:37:29] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:37:30,721 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:37:30,724 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:37:30] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:38:10,518 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:38:10] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:38:11,489 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:38:11,490 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:38:11] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:45:20,853 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:45:20] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:45:22,338 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 98.36
+2025-04-08 20:45:22,341 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:45:22] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:45:27,487 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:45:27] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:45:28,155 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:45:28,157 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:45:28] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:54:01,338 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:54:01] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:54:04,500 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:54:04,562 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:54:04] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:54:55,292 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:54:55] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:54:58,399 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:54:58,405 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:54:58] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:55:03,833 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:55:03] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:55:05,398 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:55:05,401 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:55:05] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:03,524 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:03] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:56:07,177 - __main__ - WARNING - No face detected
+2025-04-08 20:56:07,185 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:07] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:12,772 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:12] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:56:15,324 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:56:15,334 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:15] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:20,774 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:20] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:56:22,676 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:56:22,689 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:22] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:27,386 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:27] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:56:29,842 - __main__ - WARNING - No face detected
+2025-04-08 20:56:29,848 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:29] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:35,054 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:35] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:56:36,163 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:56:36,166 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:36] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:41,418 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:41] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:56:43,955 - __main__ - WARNING - No face detected
+2025-04-08 20:56:43,958 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:43] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:49,418 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:49] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:56:51,970 - __main__ - WARNING - No face detected
+2025-04-08 20:56:51,975 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:56:57,275 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:56:57] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:57:01,254 - __main__ - WARNING - No face detected
+2025-04-08 20:57:01,256 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:57:01] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:59:05,421 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:59:05] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:59:10,623 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:59:10] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:59:13,364 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 20:59:13,378 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:59:13] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 20:59:18,630 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:59:18] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 20:59:20,594 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 20:59:20] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 21:00:26,512 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:00:26] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 21:00:30,462 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 21:00:30,465 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:00:30] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 21:00:35,630 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:00:35] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 21:00:36,405 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 21:00:36,407 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:00:36] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 21:04:08,018 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:04:08] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 21:04:14,238 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:04:14] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 21:04:15,719 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 21:04:15,721 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:04:15] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 21:04:15,828 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 21:04:15,831 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:04:15] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 21:05:40,838 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:05:40] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 21:05:46,811 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 21:05:46,816 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:05:46] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 21:16:20,812 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 21:16:20,858 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 21:16:20,859 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 21:16:21,420 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:16:21] "GET /health HTTP/1.1" 200 -
+2025-04-08 21:16:34,331 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 21:16:34] "GET /health HTTP/1.1" 200 -
+2025-04-08 22:04:22,864 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:04:22] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 22:04:23,131 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 22:04:23,134 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:04:23] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 22:04:28,182 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:04:28] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 22:04:28,377 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 22:04:28,378 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:04:28] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 22:04:33,427 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:04:33] "[35m[1mOPTIONS /analyze-focus HTTP/1.1[0m" 204 -
+2025-04-08 22:04:33,588 - __main__ - INFO - Eye gaze detected with dlib. Direction: center, Score: 100.00
+2025-04-08 22:04:33,589 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:04:33] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 22:36:54,276 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 22:36:54,402 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 22:36:54,404 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 22:36:55,413 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:36:55] "GET /health HTTP/1.1" 200 -
+2025-04-08 22:37:08,342 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:37:08] "GET /health HTTP/1.1" 200 -
+2025-04-08 22:43:02,207 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 22:43:02,286 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 22:43:02,287 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 22:43:03,644 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:43:03] "GET /health HTTP/1.1" 200 -
+2025-04-08 22:43:17,191 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:43:17] "GET /health HTTP/1.1" 200 -
+2025-04-08 22:55:38,545 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 22:55:38,585 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 22:55:38,585 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 22:55:40,289 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:55:40] "GET /health HTTP/1.1" 200 -
+2025-04-08 22:55:53,333 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:55:53] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:01:39,250 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 23:01:39,357 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 23:01:39,357 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 23:01:39,820 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:01:39] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:01:53,370 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:01:53] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:07:17,986 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 23:07:18,030 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 23:07:18,030 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 23:07:18,610 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:07:18] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:07:31,196 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:07:31] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:29:32,322 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 23:29:32,373 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 23:29:32,373 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 23:29:32,563 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:29:32] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:29:45,727 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:29:45] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:54:06,014 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-08 23:54:06,091 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 23:54:06,091 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 23:54:07,009 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:54:07] "GET /health HTTP/1.1" 200 -
+2025-04-08 23:54:20,267 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 23:54:20] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:02:24,099 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-09 00:02:24,154 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-09 00:02:24,154 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 00:02:25,566 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:02:25] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:02:38,165 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:02:38] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:07:40,677 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-09 00:07:40,722 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-09 00:07:40,722 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 00:07:42,336 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:07:42] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:07:55,263 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:07:55] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:17:10,843 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-09 00:17:10,894 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-09 00:17:10,895 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 00:17:12,497 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:17:12] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:17:25,775 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:17:25] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:21:27,160 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-09 00:21:27,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-09 00:21:27,229 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 00:21:28,003 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:21:28] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:21:43,249 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:21:43] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:26:01,054 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-09 00:26:01,116 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-09 00:26:01,116 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 00:26:01,242 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:26:01] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:26:13,312 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:26:13] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:26:26,351 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:26:26] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:26:44,390 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:26:44] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:27:10,886 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:27:10] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:29:01,180 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:29:01] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:29:46,815 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:29:46] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:30:05,186 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:30:05] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:30:20,321 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:30:20] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:30:35,546 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:30:35] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:30:50,544 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:30:50] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:31:06,036 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:31:06] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:31:22,705 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:31:22] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:31:36,037 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:31:36] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:31:47,342 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:31:47] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:31:58,245 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:31:58] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:32:10,027 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:10] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:32:21,382 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:21] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:32:32,695 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:32] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:32:43,501 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:43] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:32:54,411 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:32:54] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:33:05,383 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:33:05] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:33:16,435 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:33:16] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:33:27,545 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:33:27] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:33:38,817 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:33:38] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:33:49,758 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:33:49] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:34:00,576 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:34:00] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:34:12,005 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:34:12] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:35:02,447 - __main__ - INFO - Loaded dlib facial landmarks model from shape_predictor_68_face_landmarks.dat
+2025-04-09 00:35:02,487 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-09 00:35:02,487 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 00:35:04,531 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:35:04] "GET /health HTTP/1.1" 200 -
+2025-04-09 00:35:17,322 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 00:35:17] "GET /health HTTP/1.1" 200 -

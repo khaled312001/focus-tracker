@@ -1,0 +1,97 @@
+2025-04-08 18:07:15,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 18:07:15,952 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:07:15,955 - INFO -  * Restarting with stat
+2025-04-08 18:07:18,881 - WARNING -  * Debugger is active!
+2025-04-08 18:07:18,888 - INFO -  * Debugger PIN: 931-848-929
+2025-04-08 18:08:39,137 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 18:08:39,146 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:08:39,149 - INFO -  * Restarting with stat
+2025-04-08 18:08:42,143 - WARNING -  * Debugger is active!
+2025-04-08 18:08:42,150 - INFO -  * Debugger PIN: 931-848-929
+2025-04-08 18:08:42,199 - INFO - 127.0.0.1 - - [08/Apr/2025 18:08:42] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-04-08 18:08:49,197 - INFO - 127.0.0.1 - - [08/Apr/2025 18:08:49] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:08:55,260 - INFO - 127.0.0.1 - - [08/Apr/2025 18:08:55] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-08 18:09:20,012 - INFO - 127.0.0.1 - - [08/Apr/2025 18:09:20] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:09:25,231 - INFO - 127.0.0.1 - - [08/Apr/2025 18:09:25] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:09:30,443 - INFO - 127.0.0.1 - - [08/Apr/2025 18:09:30] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:09:35,800 - INFO - 127.0.0.1 - - [08/Apr/2025 18:09:35] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:09:49,187 - INFO - 127.0.0.1 - - [08/Apr/2025 18:09:49] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:09:54,413 - INFO - 127.0.0.1 - - [08/Apr/2025 18:09:54] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:09:59,666 - INFO - 127.0.0.1 - - [08/Apr/2025 18:09:59] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:10:22,441 - INFO - 127.0.0.1 - - [08/Apr/2025 18:10:22] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:10:53,946 - INFO -  * Detected change in 'C:\\Users\\AIA\\Downloads\\focus-tracker\\focus-tracker\\python_model\\focus_tracker.py', reloading
+2025-04-08 18:10:54,095 - INFO -  * Restarting with stat
+2025-04-08 18:10:57,006 - WARNING -  * Debugger is active!
+2025-04-08 18:10:57,012 - INFO -  * Debugger PIN: 931-848-929
+2025-04-08 18:10:58,672 - INFO - 127.0.0.1 - - [08/Apr/2025 18:10:58] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:01,357 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:01] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:11,731 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:11] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:41,660 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:41] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:43,623 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:43] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:45,953 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:45] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:51,193 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:55,614 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:55] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:11:56,622 - INFO - 127.0.0.1 - - [08/Apr/2025 18:11:56] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:12:00,915 - INFO - 127.0.0.1 - - [08/Apr/2025 18:12:00] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:12:02,055 - INFO - 127.0.0.1 - - [08/Apr/2025 18:12:02] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:12:09,102 - INFO - 127.0.0.1 - - [08/Apr/2025 18:12:09] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:12:20,962 - INFO - 127.0.0.1 - - [08/Apr/2025 18:12:20] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:12:30,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-04-08 18:12:30,032 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:12:30,033 - INFO -  * Restarting with stat
+2025-04-08 18:12:32,702 - WARNING -  * Debugger is active!
+2025-04-08 18:12:32,708 - INFO -  * Debugger PIN: 931-848-929
+2025-04-08 18:12:33,076 - INFO - 127.0.0.1 - - [08/Apr/2025 18:12:33] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:12:36,862 - INFO - 127.0.0.1 - - [08/Apr/2025 18:12:36] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:12:47,798 - INFO - 127.0.0.1 - - [08/Apr/2025 18:12:47] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:17,767 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:17] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:20,525 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:20] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:25,748 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:25] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:29,322 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:29] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:31,032 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:31] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:34,568 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:34] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:36,357 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:36] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:13:39,896 - INFO - 127.0.0.1 - - [08/Apr/2025 18:13:39] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:14:31,961 - INFO - 127.0.0.1 - - [08/Apr/2025 18:14:31] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:14:36,843 - INFO - 127.0.0.1 - - [08/Apr/2025 18:14:36] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:14:43,100 - INFO - 127.0.0.1 - - [08/Apr/2025 18:14:43] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:14:48,414 - INFO - 127.0.0.1 - - [08/Apr/2025 18:14:48] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:14:48,431 - INFO - 127.0.0.1 - - [08/Apr/2025 18:14:48] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:14:51,487 - INFO - 127.0.0.1 - - [08/Apr/2025 18:14:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:14:56,821 - INFO - 127.0.0.1 - - [08/Apr/2025 18:14:56] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:15:00,431 - INFO - 127.0.0.1 - - [08/Apr/2025 18:15:00] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:15:02,215 - INFO - 127.0.0.1 - - [08/Apr/2025 18:15:02] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:15:04,921 - INFO - 127.0.0.1 - - [08/Apr/2025 18:15:04] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:15:13,116 - INFO - 127.0.0.1 - - [08/Apr/2025 18:15:13] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:15:16,453 - INFO - 127.0.0.1 - - [08/Apr/2025 18:15:16] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:15:57,746 - INFO - 127.0.0.1 - - [08/Apr/2025 18:15:57] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:01,899 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:01] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:03,282 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:03] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:07,115 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:07] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:08,480 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:08] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:12,401 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:12] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:13,686 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:13] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:17,643 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:17] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:18,898 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:18] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:29,654 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:29] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:32,721 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:32] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:43,230 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:43] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:46,505 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:46] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:51,716 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:51] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:16:56,962 - INFO - 127.0.0.1 - - [08/Apr/2025 18:16:56] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:17:16,006 - INFO - 127.0.0.1 - - [08/Apr/2025 18:17:16] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:17:59,852 - INFO - 127.0.0.1 - - [08/Apr/2025 18:17:59] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:18:12,523 - INFO - 127.0.0.1 - - [08/Apr/2025 18:18:12] "POST /analyze-focus HTTP/1.1" 200 -
+2025-04-08 18:19:15,326 - INFO -  * Detected change in 'C:\\Users\\AIA\\Downloads\\focus-tracker\\focus-tracker\\python_model\\focus_tracker.py', reloading
+2025-04-08 18:19:15,354 - INFO -  * Detected change in 'C:\\Users\\AIA\\Downloads\\focus-tracker\\focus-tracker\\python_model\\focus_tracker.py', reloading
+2025-04-08 18:19:15,486 - INFO -  * Restarting with stat
+2025-04-08 18:19:15,528 - INFO -  * Restarting with stat

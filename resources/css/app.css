@@ -1,0 +1,575 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+    :root {
+        --primary-color: #4f46e5;
+        --secondary-color: #3b82f6;
+        --success-color: #10b981;
+        --danger-color: #ef4444;
+        --warning-color: #f59e0b;
+        --info-color: #3b82f6;
+    }
+
+    html {
+        @apply antialiased;
+    }
+
+    body {
+        @apply bg-gray-900 text-gray-100;
+    }
+
+    h1 {
+        @apply text-4xl font-bold mb-4;
+    }
+
+    h2 {
+        @apply text-3xl font-bold mb-3;
+    }
+
+    h3 {
+        @apply text-2xl font-bold mb-2;
+    }
+}
+
+/* Custom components */
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-md font-medium transition-colors duration-150;
+    }
+
+    .btn-primary {
+        @apply bg-primary-600 text-white hover:bg-primary-700;
+    }
+
+    .btn-secondary {
+        @apply bg-gray-600 text-white hover:bg-gray-700;
+    }
+
+    .btn-success {
+        @apply bg-green-600 text-white hover:bg-green-700;
+    }
+
+    .btn-danger {
+        @apply bg-red-600 text-white hover:bg-red-700;
+    }
+
+    .form-input {
+        @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500;
+    }
+
+    .form-label {
+        @apply block text-sm font-medium text-gray-700;
+    }
+
+    .card {
+        @apply relative overflow-hidden bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-8 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02];
+        border: 1px solid var(--glass-border);
+        box-shadow: var(--glass-shadow);
+    }
+
+    .alert {
+        @apply p-4 mb-4 rounded-md;
+    }
+
+    .alert-success {
+        @apply bg-green-100 text-green-700 border border-green-400;
+    }
+
+    .alert-danger {
+        @apply bg-red-100 text-red-700 border border-red-400;
+    }
+
+    .alert-warning {
+        @apply bg-yellow-100 text-yellow-700 border border-yellow-400;
+    }
+
+    .alert-info {
+        @apply bg-blue-100 text-blue-700 border border-blue-400;
+    }
+
+    .input-field {
+        @apply w-full px-4 py-3 bg-gray-100/50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:text-white transition-all duration-300;
+        backdrop-filter: blur(5px);
+    }
+
+    .meeting-card {
+        @apply relative overflow-hidden bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover:scale-[1.01];
+        border: 1px solid var(--glass-border);
+    }
+
+    .student-item {
+        @apply flex items-center justify-between p-4 bg-gray-100/50 dark:bg-gray-700/50 rounded-xl transition-all duration-300 hover:bg-gray-200/80 dark:hover:bg-gray-700/80;
+        backdrop-filter: blur(5px);
+    }
+
+    .focus-chart {
+        @apply bg-gray-100/80 dark:bg-gray-800/80 rounded-xl p-6 shadow-lg;
+        backdrop-filter: blur(5px);
+    }
+
+    .stat-card {
+        @apply relative overflow-hidden bg-gray-100/80 dark:bg-gray-800/80 rounded-xl p-6 transition-all duration-300 hover:shadow-xl;
+        backdrop-filter: blur(5px);
+    }
+
+    .stat-value {
+        @apply text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent;
+    }
+
+    .stat-label {
+        @apply text-sm text-gray-500 dark:text-gray-400;
+    }
+
+    .nav-link::after {
+        content: '';
+        @apply absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 transition-all duration-300;
+    }
+
+    .nav-link-active {
+        @apply bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white;
+    }
+
+    .focus-timer {
+        @apply text-4xl font-bold text-gray-900 dark:text-white mb-4;
+    }
+
+    .focus-stats {
+        @apply grid grid-cols-1 md:grid-cols-3 gap-4 mb-6;
+    }
+
+    .focus-level-indicator {
+        @apply w-full h-4 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .focus-level-bar {
+        @apply h-full transition-all duration-500;
+        background: linear-gradient(90deg, #ef4444 0%, #f59e0b 50%, #22c55e 100%);
+    }
+
+    .student-list {
+        @apply space-y-3;
+    }
+
+    .student-item {
+        @apply flex items-center justify-between p-4 bg-gray-100/50 dark:bg-gray-700/50 rounded-xl transition-all duration-300 hover:bg-gray-200/80 dark:hover:bg-gray-700/80;
+        backdrop-filter: blur(5px);
+    }
+
+    .focus-chart {
+        @apply bg-gray-100/80 dark:bg-gray-800/80 rounded-xl p-6 shadow-lg;
+        backdrop-filter: blur(5px);
+    }
+
+    .stat-card {
+        @apply relative overflow-hidden bg-gray-100/80 dark:bg-gray-800/80 rounded-xl p-6 transition-all duration-300 hover:shadow-xl;
+        backdrop-filter: blur(5px);
+    }
+
+    .focus-timer {
+        @apply text-4xl font-bold text-gray-900 dark:text-white mb-4;
+    }
+
+    .focus-stats {
+        @apply grid grid-cols-1 md:grid-cols-3 gap-4 mb-6;
+    }
+
+    .stat-card {
+        @apply relative overflow-hidden bg-gray-100/80 dark:bg-gray-800/80 rounded-xl p-6 transition-all duration-300 hover:shadow-xl;
+        backdrop-filter: blur(5px);
+    }
+
+    .stat-value {
+        @apply text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent;
+    }
+
+    .stat-label {
+        @apply text-sm text-gray-500 dark:text-gray-400;
+    }
+}
+
+/* Custom utilities */
+@layer utilities {
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .transition-fast {
+        @apply transition-all duration-150 ease-in-out;
+    }
+
+    .transition-medium {
+        @apply transition-all duration-300 ease-in-out;
+    }
+
+    .transition-slow {
+        transition-duration: 500ms;
+    }
+}
+
+/* Global styles */
+body {
+    @apply antialiased text-gray-800 bg-gray-50;
+}
+
+/* Navigation styles */
+.nav-link {
+    @apply px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-indigo-700 transition-colors duration-150;
+}
+
+/* Form styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500;
+}
+
+/* Button styles */
+button {
+    @apply inline-flex items-center justify-center;
+}
+
+/* Table styles */
+table {
+    @apply min-w-full divide-y divide-gray-200;
+}
+
+th {
+    @apply px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+}
+
+td {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-gray-500;
+}
+
+/* Card styles */
+.card-header {
+    @apply px-6 py-4 border-b border-gray-200;
+}
+
+.card-body {
+    @apply p-6;
+}
+
+.card-footer {
+    @apply px-6 py-4 border-t border-gray-200;
+}
+
+/* Meeting room styles */
+.video-container {
+    @apply relative w-full aspect-video bg-gray-900 rounded-lg overflow-hidden;
+}
+
+.video-controls {
+    @apply absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/50 to-transparent;
+}
+
+.focus-indicator {
+    @apply absolute top-4 right-4 px-3 py-1 rounded-full text-sm font-medium bg-gray-100/90;
+}
+
+/* Chat styles */
+.chat-container {
+    @apply flex flex-col h-full;
+}
+
+.chat-messages {
+    @apply flex-1 overflow-y-auto p-4 space-y-4;
+}
+
+.chat-input {
+    @apply border-t border-gray-200 p-4;
+}
+
+.message {
+    @apply flex items-start space-x-3;
+}
+
+.message-content {
+    @apply bg-gray-800 text-gray-100 rounded-lg px-4 py-2 shadow-sm;
+}
+
+/* Focus tracking styles */
+.focus-bar {
+    @apply h-2 rounded-full bg-gray-200 overflow-hidden;
+}
+
+.focus-progress {
+    @apply h-full bg-green-500 transition-all duration-300;
+}
+
+/* Responsive styles */
+@media (max-width: 640px) {
+    .container {
+        @apply px-4;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .container {
+        @apply px-6;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        @apply px-8;
+    }
+}
+
+/* Custom Properties */
+:root {
+    --primary-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --secondary-gradient: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    --accent-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* Base Styles */
+@layer base {
+    body {
+        @apply antialiased bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900;
+        background-attachment: fixed;
+    }
+}
+
+/* Animations */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-shimmer {
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 100%);
+    background-size: 1000px 100%;
+    animation: shimmer 2s infinite linear;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-blue-500 to-indigo-500 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gradient-to-b from-blue-600 to-indigo-600;
+}
+
+/* Focus Tracking Specific Styles */
+.focus-tracking-container {
+    @apply relative w-full h-full overflow-hidden rounded-xl;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.focus-tracking-video {
+    @apply w-full h-full object-cover rounded-xl;
+    filter: brightness(1.1) contrast(1.1);
+}
+
+.focus-tracking-overlay {
+    @apply absolute inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center rounded-xl;
+}
+
+.focus-tracking-status {
+    @apply text-white text-xl font-bold tracking-wide;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    .card {
+        @apply p-6;
+    }
+    
+    .stat-value {
+        @apply text-2xl;
+    }
+    
+    .btn-primary, .btn-secondary {
+        @apply py-2 px-4 text-sm;
+    }
+}
+
+/* Dark Mode Transitions */
+.dark-mode-transition {
+    @apply transition-colors duration-500;
+}
+
+/* Loading States */
+.loading-skeleton {
+    @apply animate-pulse bg-gray-200 dark:bg-gray-700 rounded-lg;
+}
+
+/* Hover Effects */
+.hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1;
+}
+
+.hover-glow {
+    @apply transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500/20;
+}
+
+/* Glass Morphism */
+.glass {
+    @apply bg-gray-100/10 dark:bg-gray-900/10 backdrop-blur-lg border border-white/20 dark:border-gray-800/20;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient Text */
+.gradient-text {
+    @apply bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent;
+}
+
+/* Custom Focus Ring */
+.focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-gray-900;
+}
+
+/* Meeting Room Styles */
+.chat-message {
+    background-color: #374151;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s;
+}
+
+.chat-message.own-message {
+    background-color: #1e40af;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin-bottom: 0.25rem;
+}
+
+.message-content {
+    color: white;
+    word-break: break-word;
+}
+
+.participant {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #374151;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.participant-info {
+    margin-left: 0.5rem;
+    flex: 1;
+}
+
+.participant-name {
+    font-weight: 500;
+    color: white;
+}
+
+.participant-controls {
+    display: flex;
+    gap: 0.5rem;
+    color: #9ca3af;
+}
+
+#chat-messages {
+    scrollbar-width: thin;
+    scrollbar-color: #4b5563 #1f2937;
+}
+
+#chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chat-messages::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+
+#chat-messages::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    border-radius: 3px;
+}
+
+#focus-bar {
+    transition: width 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .grid-cols-1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Button hover effects */
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Focus tracking indicator */
+#focus-value {
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Device status indicators */
+#camera-status, #mic-status {
+    transition: color 0.3s ease;
+}
+
+/* Chat input focus */
+#chat-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}

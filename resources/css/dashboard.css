@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .focus-time-btn, .performance-type-btn {
+        @apply px-3 py-1 text-xs font-medium rounded-md transition-all duration-150;
+        @apply text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100;
+        @apply bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600;
+    }
+    
+    .focus-time-btn.active, .performance-type-btn.active {
+        @apply text-white bg-blue-500 hover:bg-blue-600;
+    }
+}
+
+/* Dashboard specific styles */
+.dashboard-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6;
+}
+
+.dashboard-card {
+    @apply bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg p-6;
+}
+
+.dashboard-title {
+    @apply text-2xl font-semibold text-gray-900 dark:text-white mb-4;
+}
+
+.dashboard-subtitle {
+    @apply text-gray-600 dark:text-gray-400 mb-6;
+}
+
+/* Focus level progress bar */
+.focus-level-bar {
+    @apply h-2 bg-gray-200 rounded-full dark:bg-gray-700 overflow-hidden;
+}
+
+.focus-level-progress {
+    @apply h-full bg-blue-600 rounded-full transition-all duration-300;
+}
+
+/* Meeting card styles */
+.meeting-card {
+    @apply bg-gray-50 dark:bg-gray-700 rounded-lg p-4 mb-4;
+}
+
+.meeting-title {
+    @apply font-medium text-gray-900 dark:text-white;
+}
+
+.meeting-meta {
+    @apply text-sm text-gray-600 dark:text-gray-400;
+}
+
+/* Stats card styles */
+.stats-card {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600 p-4 rounded-lg text-white;
+}
+
+.stats-label {
+    @apply text-sm font-medium;
+}
+
+.stats-value {
+    @apply text-3xl font-bold;
+}
+
+/* Table styles */
+.dashboard-table {
+    @apply min-w-full divide-y divide-gray-200 dark:divide-gray-700;
+}
+
+.dashboard-table th {
+    @apply px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider;
+}
+
+.dashboard-table td {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white;
+}
+
+/* Button styles */
+.dashboard-button {
+    @apply w-full bg-blue-600 text-white rounded-lg px-4 py-2 hover:bg-blue-700 transition-colors;
+}
+
+.dashboard-button-danger {
+    @apply w-full bg-red-600 text-white rounded-lg px-4 py-2 hover:bg-red-700 transition-colors;
+}
+
+/* Dashboard Styles */
+.focus-score-card {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease-in-out;
+}
+
+.focus-score-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Progress bars animation */
+.bg-blue-600, .bg-purple-600, .bg-green-600 {
+    transition: width 1s ease-in-out;
+}
+
+/* Card hover effects */
+.testimonial-card {
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Focus Tips cards */
+.bg-blue-50, .bg-purple-50, .bg-green-50, .bg-orange-50 {
+    transition: all 0.3s ease;
+}
+
+.bg-blue-50:hover, .bg-purple-50:hover, .bg-green-50:hover, .bg-orange-50:hover {
+    transform: scale(1.02);
+}
+
+/* Dark mode enhancements */
+.dark .focus-score-card {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Table enhancements */
+.min-w-full {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.min-w-full th:first-child {
+    border-top-left-radius: 0.5rem;
+}
+
+.min-w-full th:last-child {
+    border-top-right-radius: 0.5rem;
+}
+
+/* Responsive enhancements */
+@media (max-width: 768px) {
+    .grid-cols-1 {
+        gap: 1rem;
+    }
+    
+    .focus-score-card {
+        margin-top: 1rem;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading states */
+.loading {
+    position: relative;
+    overflow: hidden;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.2) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+/* Dark mode loading states */
+.dark .loading::after {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+/* Focus Analytics animations */
+.focus-analytics-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ensure proper spacing for mobile */
+@media (max-width: 640px) {
+    .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .text-2xl {
+        font-size: 1.5rem;
+    }
+    
+    .grid-cols-1 > * {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Focus Level Bar */
+.focus-level-bar {
+    height: 0.5rem;
+    border-radius: 9999px;
+    transition: width 0.3s ease-in-out;
+}
+
+.focus-level-bar-bg {
+    height: 0.5rem;
+    border-radius: 9999px;
+    background-color: rgb(229, 231, 235);
+}
+
+.dark .focus-level-bar-bg {
+    background-color: rgb(55, 65, 81);
+}
+
+.focus-level-bar-progress {
+    height: 100%;
+    border-radius: 9999px;
+    background-color: rgb(37, 99, 235);
+} 

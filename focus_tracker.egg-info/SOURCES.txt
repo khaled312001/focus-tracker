@@ -1,0 +1,11 @@
+README.md
+setup.py
+app/__init__.py
+app/focus_detector.py
+app/Models/__init__.py
+app/Models/focus_detector.py
+focus_tracker.egg-info/PKG-INFO
+focus_tracker.egg-info/SOURCES.txt
+focus_tracker.egg-info/dependency_links.txt
+focus_tracker.egg-info/requires.txt
+focus_tracker.egg-info/top_level.txt

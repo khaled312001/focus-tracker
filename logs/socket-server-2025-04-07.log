@@ -1,0 +1,875 @@
+[2025-04-07T12:03:34.454Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:03:34.488Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:03:34.488Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:03:44.444Z] [INFO] Received SIGINT. Shutting down gracefully...
+[2025-04-07T12:03:44.447Z] [INFO] Server closed.
+[2025-04-07T12:03:54.984Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:03:55.010Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:03:55.010Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:04:58.885Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:04:58.894Z] [INFO] New connection: D5WINQ2DGoaB_HHHAAAC (took 5ms)
+[2025-04-07T12:04:59.507Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:04:59.508Z] [INFO] New connection: JeYOxy419ROITyUpAAAD (took 1ms)
+[2025-04-07T12:04:59.600Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:04:59.600Z] [INFO] Meeting 19 created
+[2025-04-07T12:04:59.605Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:04:59.745Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:04:59.746Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:06:26.948Z] [INFO] Disconnected: JeYOxy419ROITyUpAAAD, reason: transport close
+[2025-04-07T12:06:26.951Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:06:27.776Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:06:27.777Z] [INFO] New connection: xihhfUaIm3adTl5IAAAF (took 1ms)
+[2025-04-07T12:06:28.757Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:06:28.759Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:06:51.400Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:06:51.443Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:06:51.443Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:06:51.465Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:06:51.467Z] [INFO] New connection: BE3oKUL8syM8_KWqAAAB (took 1ms)
+[2025-04-07T12:06:54.604Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:06:54.606Z] [INFO] New connection: 5zS38Wi10Q3UyDBYAAAD (took 1ms)
+[2025-04-07T12:07:05.650Z] [INFO] Disconnected: BE3oKUL8syM8_KWqAAAB, reason: transport close
+[2025-04-07T12:12:09.860Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:12:09.888Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:12:09.889Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:13:05.634Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:13:05.638Z] [INFO] New connection: I9vei1fe-nF6Nec4AAAB (took 3ms)
+[2025-04-07T12:13:11.126Z] [INFO] Disconnected: I9vei1fe-nF6Nec4AAAB, reason: transport close
+[2025-04-07T12:13:28.436Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:13:28.437Z] [INFO] New connection: gyEvRVMuyh8Je733AAAD (took 1ms)
+[2025-04-07T12:13:44.881Z] [INFO] Disconnected: gyEvRVMuyh8Je733AAAD, reason: transport close
+[2025-04-07T12:13:48.192Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:13:48.193Z] [INFO] New connection: kewg3Nx33TT-69jJAAAF (took 0ms)
+[2025-04-07T12:13:48.330Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:13:48.330Z] [INFO] Meeting 19 created
+[2025-04-07T12:13:48.332Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:13:57.984Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:13:57.986Z] [INFO] New connection: ULX2sBBD4UewIImXAAAH (took 1ms)
+[2025-04-07T12:13:58.588Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:13:58.589Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:16:34.772Z] [INFO] Disconnected: ULX2sBBD4UewIImXAAAH, reason: transport close
+[2025-04-07T12:16:34.786Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:16:35.493Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:16:35.494Z] [INFO] New connection: w2FzIEPQqWvkemLZAAAJ (took 1ms)
+[2025-04-07T12:16:35.680Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:16:35.680Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:16:45.709Z] [INFO] Disconnected: kewg3Nx33TT-69jJAAAF, reason: transport close
+[2025-04-07T12:16:45.714Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:16:46.066Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:16:46.067Z] [INFO] New connection: TO1JaDWfP9b2WlR3AAAL (took 0ms)
+[2025-04-07T12:16:46.597Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:16:46.597Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:17:19.003Z] [INFO] Disconnected: TO1JaDWfP9b2WlR3AAAL, reason: transport close
+[2025-04-07T12:17:19.003Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:17:21.836Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:17:21.836Z] [INFO] New connection: amYSTMvLRacPe0kxAAAN (took 0ms)
+[2025-04-07T12:17:22.311Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:17:22.312Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:17:44.203Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:17:44.232Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:17:44.233Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:17:44.628Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:17:44.631Z] [INFO] New connection: LDw1c9LDMwwn-7uUAAAB (took 2ms)
+[2025-04-07T12:18:26.783Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:18:26.815Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:18:26.815Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:18:27.630Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:18:27.633Z] [INFO] New connection: 6ClaPyFESiOTyPGMAAAB (took 3ms)
+[2025-04-07T12:18:46.000Z] [INFO] Disconnected: 6ClaPyFESiOTyPGMAAAB, reason: transport close
+[2025-04-07T12:19:11.831Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:19:11.857Z] [INFO] New connection: CsYadS77mXMFlx9hAAAE (took 1ms)
+[2025-04-07T12:19:11.974Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:19:11.980Z] [INFO] Meeting 19 created
+[2025-04-07T12:19:11.993Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:19:12.103Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:19:12.104Z] [INFO] New connection: 7AOC04m2efpkso3_AAAF (took 0ms)
+[2025-04-07T12:19:12.586Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:19:12.587Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:20:43.934Z] [INFO] Disconnected: CsYadS77mXMFlx9hAAAE, reason: transport close
+[2025-04-07T12:20:43.937Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:20:50.645Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:20:50.647Z] [INFO] New connection: vp_pLBTMoKHcR-EYAAAH (took 1ms)
+[2025-04-07T12:20:50.871Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:20:50.872Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:20:55.728Z] [INFO] Disconnected: vp_pLBTMoKHcR-EYAAAH, reason: transport close
+[2025-04-07T12:20:55.748Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:20:58.384Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:20:58.385Z] [INFO] New connection: zdKq928lLpDgVo_PAAAJ (took 1ms)
+[2025-04-07T12:20:58.744Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:20:58.745Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:21:00.882Z] [INFO] Disconnected: 7AOC04m2efpkso3_AAAF, reason: transport close
+[2025-04-07T12:21:00.885Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:21:01.215Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:21:01.217Z] [INFO] New connection: qBt6EA7ajKY60m3SAAAL (took 0ms)
+[2025-04-07T12:21:01.700Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:21:01.733Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:22:24.423Z] [INFO] Disconnected: qBt6EA7ajKY60m3SAAAL, reason: transport close
+[2025-04-07T12:22:24.424Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:22:26.808Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:22:26.809Z] [INFO] New connection: 6hEFO5IBECqwaEjpAAAN (took 0ms)
+[2025-04-07T12:22:27.301Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:22:27.341Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:22:29.351Z] [INFO] Disconnected: zdKq928lLpDgVo_PAAAJ, reason: transport close
+[2025-04-07T12:22:29.353Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:22:29.969Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:22:29.970Z] [INFO] New connection: d236B_VCbAqPRm6KAAAP (took 1ms)
+[2025-04-07T12:22:30.587Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:22:30.588Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:24:13.301Z] [INFO] Disconnected: 6hEFO5IBECqwaEjpAAAN, reason: transport close
+[2025-04-07T12:24:13.302Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:24:15.766Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:24:15.767Z] [INFO] New connection: IwxEWUp7_eGm5IoYAAAR (took 1ms)
+[2025-04-07T12:24:16.629Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:24:16.630Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:24:24.026Z] [INFO] Disconnected: IwxEWUp7_eGm5IoYAAAR, reason: transport close
+[2025-04-07T12:24:24.029Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:24:24.330Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:24:24.331Z] [INFO] New connection: 6hX_C-LcDvW1DDDDAAAT (took 1ms)
+[2025-04-07T12:24:25.595Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:24:25.595Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:24:35.976Z] [INFO] Disconnected: 6hX_C-LcDvW1DDDDAAAT, reason: transport close
+[2025-04-07T12:24:35.978Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:24:36.207Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:24:36.208Z] [INFO] New connection: N1onbCcSU-t2t7naAAAV (took 0ms)
+[2025-04-07T12:24:36.596Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:24:36.597Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:24:43.224Z] [INFO] Disconnected: d236B_VCbAqPRm6KAAAP, reason: transport close
+[2025-04-07T12:24:43.224Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:24:44.516Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:24:44.517Z] [INFO] New connection: 3oj99gHlrpQ6sstYAAAX (took 0ms)
+[2025-04-07T12:24:45.589Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:24:45.590Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:25:53.368Z] [INFO] Disconnected: N1onbCcSU-t2t7naAAAV, reason: transport close
+[2025-04-07T12:25:53.369Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:25:55.692Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:25:55.693Z] [INFO] New connection: fSJQ957I0LS2pO2pAAAZ (took 0ms)
+[2025-04-07T12:25:56.591Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:25:56.592Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:26:07.430Z] [INFO] Disconnected: fSJQ957I0LS2pO2pAAAZ, reason: transport close
+[2025-04-07T12:26:07.431Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:26:09.382Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:26:09.383Z] [INFO] New connection: dorsJRvZ6QgY_rhxAAAb (took 0ms)
+[2025-04-07T12:26:09.600Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:26:09.601Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:26:28.050Z] [INFO] Disconnected: 3oj99gHlrpQ6sstYAAAX, reason: transport close
+[2025-04-07T12:26:28.077Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:26:29.186Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:26:29.186Z] [INFO] New connection: dBra6c4R8VzOLZBKAAAd (took 0ms)
+[2025-04-07T12:26:29.594Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:26:29.595Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:28:22.814Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:28:22.861Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:28:22.862Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:28:23.145Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:28:23.149Z] [INFO] New connection: htTlOHZCLnIooD9gAAAB (took 3ms)
+[2025-04-07T12:28:27.612Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:28:27.612Z] [INFO] New connection: 9rV8le6HYyraW2X6AAAD (took 0ms)
+[2025-04-07T12:29:01.227Z] [INFO] Disconnected: 9rV8le6HYyraW2X6AAAD, reason: transport close
+[2025-04-07T12:29:30.071Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T12:29:30.072Z] [INFO] New connection: dK1JyDeknTNLu7umAAAF (took 1ms)
+[2025-04-07T12:29:30.315Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:29:30.315Z] [INFO] Meeting 19 created
+[2025-04-07T12:29:30.318Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:33:02.335Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:33:02.414Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:33:02.415Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:34:53.274Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:34:53.310Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:34:53.310Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:37:40.688Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:37:40.789Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:37:40.790Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:38:08.323Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:38:08.365Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:38:08.366Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:39:27.587Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:39:27.590Z] [INFO] New connection: -QFdDYNiTssWARaxAAAB (took 2ms)
+[2025-04-07T12:39:28.116Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:39:28.117Z] [INFO] Meeting 19 created
+[2025-04-07T12:39:28.119Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:40:09.152Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:40:09.152Z] [INFO] New connection: t7Ll2qBU57DshPIqAAAE (took 0ms)
+[2025-04-07T12:40:10.001Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:40:10.002Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:43:08.328Z] [INFO] System stats: {"connections":2,"rooms":3,"meetings":1,"users":2,"memoryUsage":8.52487564086914,"uptime":300.9080599}
+[2025-04-07T12:45:33.307Z] [INFO] Disconnected: t7Ll2qBU57DshPIqAAAE, reason: transport close
+[2025-04-07T12:45:33.314Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:45:33.316Z] [INFO] Disconnected: -QFdDYNiTssWARaxAAAB, reason: transport error
+[2025-04-07T12:45:33.316Z] [INFO] Meeting 19 removed (empty)
+[2025-04-07T12:45:33.317Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:45:34.652Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:45:34.665Z] [INFO] New connection: hB2IE-Z_lldkTP55AAAH (took 0ms)
+[2025-04-07T12:45:35.750Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:45:35.753Z] [INFO] New connection: 08HAHcNqbI-z40ooAAAK (took 0ms)
+[2025-04-07T12:46:01.361Z] [INFO] Disconnected: hB2IE-Z_lldkTP55AAAH, reason: transport close
+[2025-04-07T12:48:08.343Z] [INFO] System stats: {"connections":1,"rooms":1,"meetings":0,"users":0,"memoryUsage":8.283935546875,"uptime":600.9237204}
+[2025-04-07T12:49:33.121Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:49:33.147Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:49:33.148Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:49:41.619Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:49:41.622Z] [INFO] New connection: q1Dmds10qKM1M4LmAAAB (took 2ms)
+[2025-04-07T12:49:50.865Z] [INFO] Disconnected: q1Dmds10qKM1M4LmAAAB, reason: transport close
+[2025-04-07T12:50:35.350Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:50:35.354Z] [INFO] New connection: q5dFgBLkYRlxn24vAAAE (took 1ms)
+[2025-04-07T12:50:37.982Z] [INFO] Disconnected: q5dFgBLkYRlxn24vAAAE, reason: transport close
+[2025-04-07T12:50:55.608Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:50:55.610Z] [INFO] New connection: Mk9PWTRdxMFnEaEqAAAH (took 0ms)
+[2025-04-07T12:51:05.156Z] [INFO] Disconnected: Mk9PWTRdxMFnEaEqAAAH, reason: transport close
+[2025-04-07T12:51:12.545Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:51:12.545Z] [INFO] New connection: nc2lwzaOthqefq0mAAAK (took 0ms)
+[2025-04-07T12:51:13.070Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:51:13.070Z] [INFO] Meeting 19 created
+[2025-04-07T12:51:13.073Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:51:28.199Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:51:28.199Z] [INFO] New connection: aMilnkDFsdGsLGw-AAAN (took 0ms)
+[2025-04-07T12:51:28.915Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:51:28.916Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:53:29.804Z] [INFO] Disconnected: nc2lwzaOthqefq0mAAAK, reason: transport close
+[2025-04-07T12:53:29.806Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:53:33.047Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:53:33.048Z] [INFO] New connection: JcJ1JeZypElrXiXfAAAQ (took 0ms)
+[2025-04-07T12:53:33.600Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:53:33.602Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:53:43.839Z] [INFO] Disconnected: JcJ1JeZypElrXiXfAAAQ, reason: transport close
+[2025-04-07T12:53:43.847Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:54:12.381Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:54:12.425Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:54:12.426Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T12:54:12.637Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:54:12.642Z] [INFO] New connection: IS1WqaZT_ZLC4oXJAAAB (took 3ms)
+[2025-04-07T12:54:23.225Z] [INFO] Disconnected: IS1WqaZT_ZLC4oXJAAAB, reason: transport close
+[2025-04-07T12:54:52.464Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:54:52.465Z] [INFO] New connection: 1RkJ_RBn3AWNbtzjAAAE (took 0ms)
+[2025-04-07T12:54:52.593Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T12:54:52.593Z] [INFO] New connection: 74qwsH1o0bvCxWDTAAAH (took 0ms)
+[2025-04-07T12:54:53.124Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T12:54:53.124Z] [INFO] Meeting 19 created
+[2025-04-07T12:54:53.127Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T12:54:54.028Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T12:54:54.029Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T12:57:10.458Z] [INFO] Disconnected: 1RkJ_RBn3AWNbtzjAAAE, reason: transport close
+[2025-04-07T12:57:10.459Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T12:57:11.758Z] [INFO] Disconnected: 74qwsH1o0bvCxWDTAAAH, reason: transport close
+[2025-04-07T12:57:11.758Z] [INFO] Meeting 19 removed (empty)
+[2025-04-07T12:57:11.758Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T12:59:15.777Z] [INFO] Starting WebSocket server...
+[2025-04-07T12:59:15.807Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T12:59:15.807Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:00:11.739Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:00:11.746Z] [INFO] New connection: nqF9mnMTyIvH0KIZAAAB (took 2ms)
+[2025-04-07T13:00:11.800Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:00:11.801Z] [INFO] New connection: g7B7CAVDZp_sAc_SAAAE (took 0ms)
+[2025-04-07T13:00:12.322Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:00:12.323Z] [INFO] Meeting 19 created
+[2025-04-07T13:00:12.326Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:00:13.595Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:00:13.596Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:01:09.963Z] [INFO] Disconnected: nqF9mnMTyIvH0KIZAAAB, reason: transport close
+[2025-04-07T13:01:09.966Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T13:01:15.613Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:01:15.616Z] [INFO] New connection: XrZsVp2Hie-RZUv6AAAH (took 1ms)
+[2025-04-07T13:01:16.591Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:01:16.592Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:01:43.690Z] [INFO] Disconnected: g7B7CAVDZp_sAc_SAAAE, reason: transport close
+[2025-04-07T13:01:43.692Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T13:01:46.933Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:01:46.934Z] [INFO] New connection: avH1kg5noZ4W9IA1AAAK (took 0ms)
+[2025-04-07T13:01:47.596Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:01:47.597Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:02:06.220Z] [INFO] Disconnected: avH1kg5noZ4W9IA1AAAK, reason: transport close
+[2025-04-07T13:02:06.220Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T13:02:09.022Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:02:09.022Z] [INFO] New connection: OW0URxE7va-ZwRqhAAAN (took 0ms)
+[2025-04-07T13:02:09.645Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:02:09.646Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:02:24.698Z] [INFO] Disconnected: XrZsVp2Hie-RZUv6AAAH, reason: transport close
+[2025-04-07T13:02:24.702Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T13:02:25.059Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:02:25.059Z] [INFO] New connection: YdRXol-4jV3Ont5DAAAQ (took 0ms)
+[2025-04-07T13:02:26.601Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:02:26.602Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:03:14.120Z] [INFO] Starting WebSocket server...
+[2025-04-07T13:03:14.159Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T13:03:14.160Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:03:15.640Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:03:15.645Z] [INFO] New connection: 4-T-YmshQSxn_UEgAAAB (took 3ms)
+[2025-04-07T13:03:19.787Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:03:19.788Z] [INFO] New connection: m67OpCo5JlorBeMTAAAE (took 0ms)
+[2025-04-07T13:03:28.861Z] [INFO] Disconnected: m67OpCo5JlorBeMTAAAE, reason: transport close
+[2025-04-07T13:03:44.057Z] [INFO] Disconnected: 4-T-YmshQSxn_UEgAAAB, reason: transport close
+[2025-04-07T13:04:05.708Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:04:05.709Z] [INFO] New connection: si9Xj7QaZJQIWpZEAAAH (took 1ms)
+[2025-04-07T13:04:06.020Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:04:06.020Z] [INFO] New connection: wgCJs4dqxOHNosM5AAAK (took 0ms)
+[2025-04-07T13:04:06.230Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:04:06.231Z] [INFO] Meeting 19 created
+[2025-04-07T13:04:06.234Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:04:07.586Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:04:07.587Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:04:46.490Z] [INFO] Disconnected: wgCJs4dqxOHNosM5AAAK, reason: transport close
+[2025-04-07T13:04:46.490Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T13:05:00.215Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:05:00.219Z] [INFO] New connection: vlw0SrEvt8VYlPn2AAAN (took 0ms)
+[2025-04-07T13:05:00.977Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:05:00.978Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:05:42.912Z] [INFO] Disconnected: si9Xj7QaZJQIWpZEAAAH, reason: transport close
+[2025-04-07T13:05:42.913Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T13:05:43.151Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:05:43.152Z] [INFO] New connection: SGD7chl1o0Nm9qzJAAAQ (took 0ms)
+[2025-04-07T13:05:44.590Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:05:44.591Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:08:14.136Z] [INFO] System stats: {"connections":2,"rooms":3,"meetings":1,"users":2,"memoryUsage":8.222530364990234,"uptime":300.8186056}
+[2025-04-07T13:08:29.517Z] [INFO] Disconnected: SGD7chl1o0Nm9qzJAAAQ, reason: transport close
+[2025-04-07T13:08:29.519Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T13:08:32.301Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:08:32.302Z] [INFO] New connection: IGRmatTjPr7fuWT7AAAT (took 1ms)
+[2025-04-07T13:08:33.598Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:08:33.599Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:08:42.845Z] [INFO] Disconnected: vlw0SrEvt8VYlPn2AAAN, reason: transport close
+[2025-04-07T13:08:42.846Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T13:08:43.136Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:08:43.136Z] [INFO] New connection: cgyI0O9_293xoReEAAAW (took 0ms)
+[2025-04-07T13:08:49.419Z] [INFO] Disconnected: cgyI0O9_293xoReEAAAW, reason: transport close
+[2025-04-07T13:08:50.739Z] [INFO] Disconnected: IGRmatTjPr7fuWT7AAAT, reason: transport close
+[2025-04-07T13:08:50.740Z] [INFO] Meeting 19 removed (empty)
+[2025-04-07T13:08:50.741Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T13:08:51.181Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:08:51.182Z] [INFO] New connection: JZuci6_BVU5HZ7pSAAAa (took 1ms)
+[2025-04-07T13:08:51.257Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:08:51.258Z] [INFO] New connection: 941oPahsek8CqSwWAAAc (took 0ms)
+[2025-04-07T13:08:52.411Z] [INFO] Disconnected: 941oPahsek8CqSwWAAAc, reason: transport close
+[2025-04-07T13:08:53.488Z] [INFO] Disconnected: JZuci6_BVU5HZ7pSAAAa, reason: transport close
+[2025-04-07T13:08:54.243Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:08:54.244Z] [INFO] New connection: AIkrx9FA0qKHk3fXAAAg (took 0ms)
+[2025-04-07T13:08:54.281Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:08:54.283Z] [INFO] New connection: RI_Pt7GsWMAKBQbBAAAi (took 1ms)
+[2025-04-07T13:08:55.587Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:08:55.587Z] [INFO] Meeting 19 created
+[2025-04-07T13:08:55.589Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:09:14.131Z] [INFO] Disconnected: RI_Pt7GsWMAKBQbBAAAi, reason: transport close
+[2025-04-07T13:09:14.299Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:09:14.301Z] [INFO] New connection: OXYJr5OgD-3wIcFiAAAl (took 0ms)
+[2025-04-07T13:09:15.052Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:09:15.053Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:10:25.892Z] [INFO] Starting WebSocket server...
+[2025-04-07T13:10:25.927Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T13:10:25.927Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:10:26.141Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:10:26.143Z] [INFO] New connection: clxYaXD26SjT1djdAAAB (took 1ms)
+[2025-04-07T13:10:30.344Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:10:30.350Z] [INFO] New connection: IuNXpPstPGmSE4ngAAAE (took 1ms)
+[2025-04-07T13:10:47.879Z] [INFO] Disconnected: IuNXpPstPGmSE4ngAAAE, reason: transport close
+[2025-04-07T13:11:14.361Z] [INFO] Disconnected: clxYaXD26SjT1djdAAAB, reason: transport close
+[2025-04-07T13:11:34.243Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:11:34.244Z] [INFO] New connection: 73hy581V2hF4XlFmAAAI (took 0ms)
+[2025-04-07T13:11:34.470Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:11:34.471Z] [INFO] New connection: W8eXB0NZO-SNqLqlAAAK (took 1ms)
+[2025-04-07T13:11:34.770Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:11:34.770Z] [INFO] Meeting 19 created
+[2025-04-07T13:11:34.773Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:11:35.843Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:11:35.844Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:11:37.358Z] [INFO] Disconnected: W8eXB0NZO-SNqLqlAAAK, reason: transport close
+[2025-04-07T13:11:37.363Z] [INFO] User Jane Student (4) left meeting 19
+[2025-04-07T13:11:38.352Z] [INFO] Disconnected: 73hy581V2hF4XlFmAAAI, reason: transport close
+[2025-04-07T13:11:38.367Z] [INFO] Meeting 19 removed (empty)
+[2025-04-07T13:11:38.367Z] [INFO] User John Smith (1) left meeting 19
+[2025-04-07T13:12:06.878Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:12:06.879Z] [INFO] New connection: _Z7xSAdgqeE5ecJUAAAO (took 0ms)
+[2025-04-07T13:12:06.941Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:12:06.941Z] [INFO] New connection: VXNw9cB1RNVArCqKAAAQ (took 0ms)
+[2025-04-07T13:12:07.595Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:12:07.596Z] [INFO] Meeting 19 created
+[2025-04-07T13:12:07.597Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:12:08.586Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:12:08.588Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:12:41.502Z] [INFO] Starting WebSocket server...
+[2025-04-07T13:12:41.614Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T13:12:41.617Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:12:41.900Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:12:41.917Z] [INFO] New connection: ynyqBbFpPNrtBFT9AAAB (took 3ms)
+[2025-04-07T13:12:45.619Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:12:45.619Z] [INFO] New connection: M6kip-vnRqMZQ60rAAAE (took 0ms)
+[2025-04-07T13:12:52.858Z] [INFO] Disconnected: ynyqBbFpPNrtBFT9AAAB, reason: transport close
+[2025-04-07T13:13:22.798Z] [INFO] Disconnected: M6kip-vnRqMZQ60rAAAE, reason: transport close
+[2025-04-07T13:13:31.188Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:13:31.189Z] [INFO] New connection: ZOIRcSLx-yiKg9SmAAAI (took 1ms)
+[2025-04-07T13:13:31.260Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:13:31.260Z] [INFO] New connection: S-0MteMCBUS-05zkAAAK (took 0ms)
+[2025-04-07T13:13:31.711Z] [INFO] User John Smith (1) joining meeting 19
+[2025-04-07T13:13:31.711Z] [INFO] Meeting 19 created
+[2025-04-07T13:13:31.714Z] [INFO] User John Smith (1) joined meeting 19
+[2025-04-07T13:13:32.588Z] [INFO] User Jane Student (4) joining meeting 19
+[2025-04-07T13:13:32.589Z] [INFO] User Jane Student (4) joined meeting 19
+[2025-04-07T13:20:06.915Z] [INFO] Starting WebSocket server...
+[2025-04-07T13:20:06.947Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T13:20:06.947Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:20:12.664Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:20:12.674Z] [INFO] New connection: hwUmidDo2psdF1lPAAAB (took 2ms)
+[2025-04-07T13:20:17.621Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:20:17.622Z] [INFO] New connection: TSy9zPp4o7racHGkAAAE (took 0ms)
+[2025-04-07T13:25:06.927Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.26593017578125,"uptime":300.5489787}
+[2025-04-07T13:30:06.937Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.652664184570312,"uptime":600.5589551}
+[2025-04-07T13:35:06.948Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.307731628417969,"uptime":900.5694654}
+[2025-04-07T13:37:25.586Z] [INFO] Disconnected: hwUmidDo2psdF1lPAAAB, reason: transport close
+[2025-04-07T13:37:31.873Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:37:31.874Z] [INFO] New connection: NpucZZ1I2C8JkYqDAAAH (took 0ms)
+[2025-04-07T13:37:32.593Z] [INFO] User John Smith (1) joining meeting 19 as unknown role
+[2025-04-07T13:37:36.032Z] [INFO] Disconnected: TSy9zPp4o7racHGkAAAE, reason: transport close
+[2025-04-07T13:37:36.293Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:37:36.294Z] [INFO] New connection: iSTgaT6jYb39uELFAAAK (took 1ms)
+[2025-04-07T13:37:36.989Z] [INFO] User Jane Student (4) joining meeting 19 as unknown role
+[2025-04-07T13:40:06.947Z] [INFO] System stats: {"connections":2,"rooms":3,"meetings":0,"users":0,"memoryUsage":8.379081726074219,"uptime":1200.5697}
+[2025-04-07T13:42:18.274Z] [INFO] Disconnected: NpucZZ1I2C8JkYqDAAAH, reason: transport close
+[2025-04-07T13:42:18.282Z] [INFO] Disconnected: iSTgaT6jYb39uELFAAAK, reason: transport close
+[2025-04-07T13:42:19.714Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:42:19.714Z] [INFO] New connection: KMPti2UMQpXOCAZWAAAN (took 0ms)
+[2025-04-07T13:42:20.642Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:42:20.696Z] [INFO] New connection: tHvyF9SAhYd0MeTdAAAQ (took 0ms)
+[2025-04-07T13:45:06.960Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.70635986328125,"uptime":1500.5811163}
+[2025-04-07T13:48:57.204Z] [INFO] Starting WebSocket server...
+[2025-04-07T13:48:57.249Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T13:48:57.249Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:48:57.307Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:48:57.310Z] [INFO] New connection: 0J9P9iFIugkzmMzZAAAB (took 2ms)
+[2025-04-07T13:49:02.338Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:49:02.342Z] [INFO] New connection: JMa6l921mby_rkgIAAAE (took 0ms)
+[2025-04-07T13:49:27.541Z] [INFO] Disconnected: JMa6l921mby_rkgIAAAE, reason: transport close
+[2025-04-07T13:49:56.457Z] [INFO] Disconnected: 0J9P9iFIugkzmMzZAAAB, reason: transport close
+[2025-04-07T13:50:21.860Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:50:21.860Z] [INFO] New connection: 2tTh-9OsbR9Zgmz9AAAH (took 0ms)
+[2025-04-07T13:50:23.358Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:50:23.360Z] [INFO] New connection: -ESir7o5GBx-PNCOAAAK (took 0ms)
+[2025-04-07T13:50:25.141Z] [INFO] Disconnected: 2tTh-9OsbR9Zgmz9AAAH, reason: transport close
+[2025-04-07T13:50:25.588Z] [INFO] User Jane Student (4) joining meeting 19 as unknown role
+[2025-04-07T13:50:56.340Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:50:56.346Z] [INFO] New connection: XCAQZQH2NZlaFzTkAAAN (took 0ms)
+[2025-04-07T13:51:02.222Z] [INFO] Disconnected: XCAQZQH2NZlaFzTkAAAN, reason: transport close
+[2025-04-07T13:51:16.341Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:51:16.341Z] [INFO] New connection: CTrgduXX3y42Pr_OAAAQ (took 0ms)
+[2025-04-07T13:51:17.279Z] [INFO] User John Smith (1) joining meeting 19 as unknown role
+[2025-04-07T13:51:50.512Z] [INFO] Disconnected: -ESir7o5GBx-PNCOAAAK, reason: transport close
+[2025-04-07T13:51:50.801Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:51:50.801Z] [INFO] New connection: SP2jHfFQwJE18RSEAAAT (took 0ms)
+[2025-04-07T13:51:51.522Z] [INFO] User Jane Student (4) joining meeting 19 as unknown role
+[2025-04-07T13:52:57.252Z] [INFO] Disconnected: CTrgduXX3y42Pr_OAAAQ, reason: transport close
+[2025-04-07T13:52:59.369Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:52:59.371Z] [INFO] New connection: vIYS-xMqJOm_wihiAAAW (took 1ms)
+[2025-04-07T13:53:00.595Z] [INFO] User John Smith (1) joining meeting 19 as unknown role
+[2025-04-07T13:53:06.723Z] [INFO] Disconnected: vIYS-xMqJOm_wihiAAAW, reason: transport close
+[2025-04-07T13:53:08.129Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:53:08.130Z] [INFO] New connection: pFfAdxLO2qi0-FymAAAZ (took 1ms)
+[2025-04-07T13:53:09.599Z] [INFO] User John Smith (1) joining meeting 19 as unknown role
+[2025-04-07T13:53:34.310Z] [INFO] Disconnected: pFfAdxLO2qi0-FymAAAZ, reason: transport close
+[2025-04-07T13:53:35.817Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:53:35.819Z] [INFO] New connection: FRZNjEAjM1ioQxAiAAAc (took 2ms)
+[2025-04-07T13:53:36.599Z] [INFO] User John Smith (1) joining meeting 19 as unknown role
+[2025-04-07T13:53:52.977Z] [INFO] Starting WebSocket server...
+[2025-04-07T13:53:53.018Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T13:53:53.018Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:53:53.132Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:53:53.135Z] [INFO] New connection: 7oTPlFAOIO62KhSMAAAC (took 2ms)
+[2025-04-07T13:53:53.140Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:53:53.140Z] [INFO] New connection: vNGJyaf32Jp4dYLUAAAE (took 0ms)
+[2025-04-07T13:54:00.371Z] [INFO] Disconnected: 7oTPlFAOIO62KhSMAAAC, reason: transport close
+[2025-04-07T13:54:03.738Z] [INFO] Disconnected: vNGJyaf32Jp4dYLUAAAE, reason: transport close
+[2025-04-07T13:54:14.228Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:54:14.229Z] [INFO] New connection: yepYaDAaePJsYuE6AAAI (took 0ms)
+[2025-04-07T13:54:14.335Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:54:14.336Z] [INFO] New connection: fVaP83Wp2o2vFjkNAAAK (took 0ms)
+[2025-04-07T13:54:14.755Z] [INFO] User John Smith (1) joining meeting 19 as unknown role
+[2025-04-07T13:54:15.595Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T13:55:17.927Z] [INFO] Disconnected: yepYaDAaePJsYuE6AAAI, reason: transport close
+[2025-04-07T13:55:35.492Z] [INFO] Disconnected: fVaP83Wp2o2vFjkNAAAK, reason: transport close
+[2025-04-07T13:55:43.853Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:55:43.854Z] [INFO] New connection: MJ2uybCTh8mO_jMYAAAO (took 0ms)
+[2025-04-07T13:55:44.015Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:55:44.017Z] [INFO] New connection: CPEToSes3uj3reWSAAAQ (took 0ms)
+[2025-04-07T13:55:44.600Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T13:55:44.601Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T13:55:44.601Z] [INFO] No focus data to send to teacher
+[2025-04-07T13:55:45.597Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T13:56:46.948Z] [INFO] Disconnected: MJ2uybCTh8mO_jMYAAAO, reason: transport close
+[2025-04-07T13:56:48.454Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:56:48.455Z] [INFO] New connection: L_Ii0HJ5juDenvIAAAAT (took 1ms)
+[2025-04-07T13:56:49.592Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T13:56:49.592Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T13:56:49.593Z] [INFO] No focus data to send to teacher
+[2025-04-07T13:56:55.695Z] [INFO] Disconnected: L_Ii0HJ5juDenvIAAAAT, reason: transport close
+[2025-04-07T13:56:56.901Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:56:56.902Z] [INFO] New connection: jJcU9O7pq9XxHjZ8AAAW (took 0ms)
+[2025-04-07T13:56:57.661Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T13:56:57.661Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T13:56:57.662Z] [INFO] No focus data to send to teacher
+[2025-04-07T13:57:16.311Z] [INFO] Disconnected: CPEToSes3uj3reWSAAAQ, reason: transport close
+[2025-04-07T13:57:16.572Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:57:16.573Z] [INFO] New connection: Y_-cyoKuJHJf0FDTAAAZ (took 0ms)
+[2025-04-07T13:57:17.598Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T13:58:54.285Z] [INFO] System stats: {"connections":2,"rooms":3,"meetings":0,"users":0,"memoryUsage":8.584941864013672,"uptime":300.5804418}
+[2025-04-07T13:59:16.531Z] [INFO] Disconnected: jJcU9O7pq9XxHjZ8AAAW, reason: transport close
+[2025-04-07T13:59:18.918Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:59:18.921Z] [INFO] New connection: ULuAry95mYXIWe5NAAAc (took 2ms)
+[2025-04-07T13:59:19.886Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T13:59:19.887Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T13:59:19.889Z] [INFO] No focus data to send to teacher
+[2025-04-07T13:59:33.270Z] [INFO] Disconnected: ULuAry95mYXIWe5NAAAc, reason: transport close
+[2025-04-07T13:59:35.770Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:59:35.770Z] [INFO] New connection: SBAbaaHo8LPZreJSAAAf (took 0ms)
+[2025-04-07T13:59:36.889Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T13:59:36.889Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T13:59:36.891Z] [INFO] No focus data to send to teacher
+[2025-04-07T13:59:49.771Z] [INFO] Starting WebSocket server...
+[2025-04-07T13:59:49.799Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T13:59:49.799Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T13:59:51.917Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T13:59:51.921Z] [INFO] New connection: hQuRL-9LJM3LE6BDAAAB (took 2ms)
+[2025-04-07T13:59:53.425Z] [INFO] Disconnected: hQuRL-9LJM3LE6BDAAAB, reason: transport close
+[2025-04-07T14:00:29.112Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:00:29.116Z] [INFO] New connection: oj5ZKsUUcr0CVQwnAAAF (took 1ms)
+[2025-04-07T14:00:29.661Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:00:29.680Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:00:29.681Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:00:30.128Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:00:30.129Z] [INFO] New connection: fk-6scQ8CeE23CEpAAAH (took 0ms)
+[2025-04-07T14:00:31.880Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:01:53.587Z] [INFO] Disconnected: oj5ZKsUUcr0CVQwnAAAF, reason: transport close
+[2025-04-07T14:01:57.041Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:01:57.042Z] [INFO] New connection: n8WcRes_6pGPhSK4AAAK (took 0ms)
+[2025-04-07T14:01:57.879Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:01:57.879Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:01:57.880Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:02:11.600Z] [INFO] Disconnected: n8WcRes_6pGPhSK4AAAK, reason: transport close
+[2025-04-07T14:02:13.394Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:02:13.394Z] [INFO] New connection: Gc7rg1xjIS8s6WkTAAAN (took 0ms)
+[2025-04-07T14:02:14.882Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:02:14.882Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:02:14.883Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:02:27.026Z] [INFO] Starting WebSocket server...
+[2025-04-07T14:02:27.068Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T14:02:27.068Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T14:02:28.938Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:02:28.942Z] [INFO] New connection: 92LWmNZ3fs_XeXm-AAAB (took 3ms)
+[2025-04-07T14:02:29.902Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:02:29.902Z] [INFO] New connection: Sp8lzrA5Z7MOx7rDAAAE (took 0ms)
+[2025-04-07T14:02:33.074Z] [INFO] Disconnected: 92LWmNZ3fs_XeXm-AAAB, reason: transport close
+[2025-04-07T14:02:42.072Z] [INFO] Disconnected: Sp8lzrA5Z7MOx7rDAAAE, reason: transport close
+[2025-04-07T14:02:43.719Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:02:43.722Z] [INFO] New connection: zMTx0TE997zGYLn4AAAH (took 0ms)
+[2025-04-07T14:02:43.751Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:02:43.753Z] [INFO] New connection: t1R0TMBNDLMiDKeiAAAK (took 0ms)
+[2025-04-07T14:02:44.560Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:02:45.222Z] [INFO] Disconnected: zMTx0TE997zGYLn4AAAH, reason: transport close
+[2025-04-07T14:02:46.063Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:02:46.063Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:02:46.064Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:02:49.954Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:02:49.954Z] [INFO] New connection: yezqdNNv1fGSfDmUAAAN (took 0ms)
+[2025-04-07T14:02:50.887Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:04:50.650Z] [INFO] Disconnected: t1R0TMBNDLMiDKeiAAAK, reason: transport close
+[2025-04-07T14:04:55.038Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:04:55.039Z] [INFO] New connection: cxwNeimgdlA3vcBdAAAQ (took 1ms)
+[2025-04-07T14:04:55.885Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:04:55.885Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:04:55.886Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:05:13.599Z] [INFO] Disconnected: cxwNeimgdlA3vcBdAAAQ, reason: transport close
+[2025-04-07T14:05:13.860Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:05:13.861Z] [INFO] New connection: HOQHmJwmAa9ur-S1AAAT (took 1ms)
+[2025-04-07T14:05:14.878Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:05:14.878Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:05:14.880Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:05:35.974Z] [INFO] Disconnected: yezqdNNv1fGSfDmUAAAN, reason: transport close
+[2025-04-07T14:05:36.215Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:05:36.216Z] [INFO] New connection: q4t1AtcDFyQ4WPUXAAAW (took 0ms)
+[2025-04-07T14:05:37.419Z] [INFO] Disconnected: HOQHmJwmAa9ur-S1AAAT, reason: transport close
+[2025-04-07T14:05:37.696Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:05:37.708Z] [INFO] New connection: wVc9Cy1L6CC9ROfrAAAZ (took 3ms)
+[2025-04-07T14:05:37.877Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:05:38.233Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:05:38.234Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:05:38.235Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:07:27.036Z] [INFO] System stats: {"connections":2,"rooms":3,"meetings":0,"users":0,"memoryUsage":8.574195861816406,"uptime":300.6033758}
+[2025-04-07T14:08:05.717Z] [INFO] Disconnected: wVc9Cy1L6CC9ROfrAAAZ, reason: transport close
+[2025-04-07T14:08:07.919Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:08:07.920Z] [INFO] New connection: 0i06Po3vDCraXr0lAAAc (took 1ms)
+[2025-04-07T14:08:08.888Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:08:08.889Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:08:08.892Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:08:24.878Z] [INFO] Disconnected: q4t1AtcDFyQ4WPUXAAAW, reason: transport close
+[2025-04-07T14:08:25.109Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:08:25.110Z] [INFO] New connection: h72o92FjZtOhlpd9AAAf (took 0ms)
+[2025-04-07T14:08:25.896Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:08:42.273Z] [INFO] Disconnected: 0i06Po3vDCraXr0lAAAc, reason: transport close
+[2025-04-07T14:08:43.795Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:08:43.795Z] [INFO] New connection: SR6hsvYENzzoUqTAAAAi (took 0ms)
+[2025-04-07T14:08:44.891Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:08:44.892Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:08:44.893Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:09:02.009Z] [INFO] Disconnected: h72o92FjZtOhlpd9AAAf, reason: transport close
+[2025-04-07T14:09:02.268Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:09:02.269Z] [INFO] New connection: y50siTLrEI9ky5ohAAAl (took 1ms)
+[2025-04-07T14:09:03.889Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:10:21.728Z] [INFO] Starting WebSocket server...
+[2025-04-07T14:10:21.756Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T14:10:21.757Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T14:10:21.951Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:10:21.954Z] [INFO] New connection: JOJIUzOqk8v10NzyAAAB (took 2ms)
+[2025-04-07T14:10:25.949Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:10:25.949Z] [INFO] New connection: xtwEJhNoussJfpEoAAAE (took 0ms)
+[2025-04-07T14:10:33.395Z] [INFO] Disconnected: JOJIUzOqk8v10NzyAAAB, reason: transport close
+[2025-04-07T14:10:59.049Z] [INFO] Disconnected: xtwEJhNoussJfpEoAAAE, reason: transport close
+[2025-04-07T14:11:09.795Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:11:09.796Z] [INFO] New connection: 6cqCaVoANvom0Bp4AAAI (took 1ms)
+[2025-04-07T14:11:09.830Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:11:09.831Z] [INFO] New connection: NPFcyRuHFLyurDAUAAAK (took 0ms)
+[2025-04-07T14:11:10.884Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:11:10.888Z] [INFO] User John Smith (1) joining meeting 19 as teacher
+[2025-04-07T14:11:10.889Z] [INFO] Teacher John Smith (1) joined meeting 19
+[2025-04-07T14:11:10.889Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:11:25.723Z] [INFO] Disconnected: NPFcyRuHFLyurDAUAAAK, reason: transport close
+[2025-04-07T14:11:30.399Z] [INFO] Connection attempt from 127.0.0.1 (transport: polling)
+[2025-04-07T14:11:30.400Z] [INFO] New connection: gW4BvEJmh9E5Wn1_AAAN (took 1ms)
+[2025-04-07T14:11:30.956Z] [INFO] User Jane Student (4) joining meeting 19 as student
+[2025-04-07T14:12:59.466Z] [INFO] Disconnected: 6cqCaVoANvom0Bp4AAAI, reason: transport close
+[2025-04-07T14:13:00.089Z] [INFO] Disconnected: gW4BvEJmh9E5Wn1_AAAN, reason: transport close
+[2025-04-07T14:15:01.893Z] [INFO] Starting WebSocket server...
+[2025-04-07T14:15:01.940Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T14:15:01.940Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T14:20:07.883Z] [INFO] Starting WebSocket server...
+[2025-04-07T14:20:07.921Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T14:20:07.924Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T14:20:23.064Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:20:23.067Z] [INFO] New connection: RCDDhJqYhNAIn0EAAAAC (took 2ms)
+[2025-04-07T14:20:23.341Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:20:23.342Z] [INFO] New connection: cFHYSKYVv5rhTfxCAAAF (took 0ms)
+[2025-04-07T14:20:23.343Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:20:23.344Z] [INFO] New connection: 9bgb1AW4pdsInkRcAAAG (took 1ms)
+[2025-04-07T14:20:23.355Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:20:23.355Z] [INFO] New connection: j_Lo37L8iZmh1e_pAAAH (took 0ms)
+[2025-04-07T14:20:37.647Z] [INFO] Disconnected: j_Lo37L8iZmh1e_pAAAH, reason: transport close
+[2025-04-07T14:20:37.649Z] [INFO] Disconnected: 9bgb1AW4pdsInkRcAAAG, reason: transport close
+[2025-04-07T14:20:53.128Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:20:53.129Z] [INFO] New connection: XtD_ah8o75aVddwoAAAK (took 1ms)
+[2025-04-07T14:20:53.134Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:20:53.134Z] [INFO] New connection: 7Pm-SqNbCB1hKyw-AAAL (took 0ms)
+[2025-04-07T14:22:20.405Z] [INFO] Disconnected: cFHYSKYVv5rhTfxCAAAF, reason: transport close
+[2025-04-07T14:22:20.409Z] [INFO] Disconnected: RCDDhJqYhNAIn0EAAAAC, reason: transport close
+[2025-04-07T14:22:21.384Z] [INFO] Disconnected: 7Pm-SqNbCB1hKyw-AAAL, reason: transport close
+[2025-04-07T14:22:21.385Z] [INFO] Disconnected: XtD_ah8o75aVddwoAAAK, reason: transport close
+[2025-04-07T14:22:22.167Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:22:22.168Z] [INFO] New connection: feziQlUYlDL9VVAKAAAP (took 1ms)
+[2025-04-07T14:22:22.171Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:22:22.172Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:22:22.172Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:22:22.235Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:22:22.236Z] [INFO] New connection: BiVGGBsDWBQSzm5AAAAQ (took 1ms)
+[2025-04-07T14:22:22.257Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:22:22.258Z] [INFO] New connection: 8a3yMHK1bhr0j_bbAAAR (took 1ms)
+[2025-04-07T14:22:43.314Z] [INFO] Disconnected: feziQlUYlDL9VVAKAAAP, reason: transport close
+[2025-04-07T14:22:43.825Z] [INFO] Disconnected: 8a3yMHK1bhr0j_bbAAAR, reason: transport close
+[2025-04-07T14:22:43.827Z] [INFO] Disconnected: BiVGGBsDWBQSzm5AAAAQ, reason: transport close
+[2025-04-07T14:22:43.874Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:22:43.875Z] [INFO] New connection: Ve_0hBLw7rVVsYpRAAAT (took 1ms)
+[2025-04-07T14:22:43.886Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:22:43.887Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:22:43.887Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:22:44.240Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:22:44.240Z] [INFO] New connection: qx3kY73aMZJUGEXGAAAV (took 0ms)
+[2025-04-07T14:22:44.370Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:22:44.370Z] [INFO] New connection: qNThXbKSxaMBjcceAAAX (took 0ms)
+[2025-04-07T14:23:08.697Z] [INFO] Starting WebSocket server...
+[2025-04-07T14:23:08.729Z] [ERROR] Uncaught Exception: listen EADDRINUSE: address already in use 127.0.0.1:6001
+[2025-04-07T14:23:08.730Z] [ERROR] Error: listen EADDRINUSE: address already in use 127.0.0.1:6001
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2025-04-07T14:25:07.896Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.151451110839844,"uptime":300.7728109}
+[2025-04-07T14:28:08.713Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.31353759765625,"uptime":300.5888417}
+[2025-04-07T14:30:07.901Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.339973449707031,"uptime":600.7781606}
+[2025-04-07T14:33:05.550Z] [INFO] Disconnected: Ve_0hBLw7rVVsYpRAAAT, reason: transport close
+[2025-04-07T14:33:08.719Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.330677032470703,"uptime":600.5956888}
+[2025-04-07T14:33:09.325Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:09.328Z] [INFO] New connection: 7rdS7zf0XNdoQat1AAAZ (took 1ms)
+[2025-04-07T14:33:09.333Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:33:09.334Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:33:09.334Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:33:14.446Z] [INFO] Disconnected: qNThXbKSxaMBjcceAAAX, reason: transport close
+[2025-04-07T14:33:14.447Z] [INFO] Disconnected: qx3kY73aMZJUGEXGAAAV, reason: transport close
+[2025-04-07T14:33:14.916Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:14.917Z] [INFO] New connection: lFADFXfPA6tmfSYLAAAb (took 0ms)
+[2025-04-07T14:33:15.058Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:15.058Z] [INFO] New connection: 62qYUYpyGeiK2M7JAAAd (took 0ms)
+[2025-04-07T14:33:39.953Z] [INFO] Starting WebSocket server...
+[2025-04-07T14:33:40.039Z] [INFO] WebSocket server running at http://127.0.0.1:6001
+[2025-04-07T14:33:40.096Z] [INFO] Socket.IO path: /socket.io
+[2025-04-07T14:33:40.467Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:40.470Z] [INFO] New connection: pjmhOqx-NkS0rMPyAAAB (took 2ms)
+[2025-04-07T14:33:40.954Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:40.955Z] [INFO] New connection: Ttm3TN_4SEvqNuP3AAAD (took 0ms)
+[2025-04-07T14:33:41.533Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:41.534Z] [INFO] New connection: FNFRdumrYcaHIFpYAAAF (took 1ms)
+[2025-04-07T14:33:42.232Z] [INFO] Disconnected: FNFRdumrYcaHIFpYAAAF, reason: transport close
+[2025-04-07T14:33:47.116Z] [INFO] Disconnected: pjmhOqx-NkS0rMPyAAAB, reason: transport close
+[2025-04-07T14:33:47.118Z] [INFO] Disconnected: Ttm3TN_4SEvqNuP3AAAD, reason: transport close
+[2025-04-07T14:33:48.285Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:48.286Z] [INFO] New connection: h7M6XruGYpkW_CL9AAAH (took 1ms)
+[2025-04-07T14:33:48.288Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:33:48.289Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:33:48.289Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:33:53.258Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:53.259Z] [INFO] New connection: BRiVpH5Ys04RDYMXAAAJ (took 0ms)
+[2025-04-07T14:33:53.393Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:33:53.394Z] [INFO] New connection: BkVsW_6YTZz9pU_nAAAL (took 0ms)
+[2025-04-07T14:36:18.544Z] [INFO] Disconnected: h7M6XruGYpkW_CL9AAAH, reason: transport close
+[2025-04-07T14:36:19.046Z] [INFO] Disconnected: BkVsW_6YTZz9pU_nAAAL, reason: transport close
+[2025-04-07T14:36:19.056Z] [INFO] Disconnected: BRiVpH5Ys04RDYMXAAAJ, reason: transport close
+[2025-04-07T14:36:19.084Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:36:19.084Z] [INFO] New connection: xhqwJEx-ligNbHI_AAAN (took 0ms)
+[2025-04-07T14:36:19.095Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:36:19.095Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:36:19.096Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:36:19.984Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:36:19.985Z] [INFO] New connection: KjTDQiSpRIF5Gxx4AAAQ (took 0ms)
+[2025-04-07T14:36:19.990Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:36:19.991Z] [INFO] New connection: 7ETIMZlFVUNyaDYNAAAR (took 0ms)
+[2025-04-07T14:36:37.479Z] [INFO] Disconnected: xhqwJEx-ligNbHI_AAAN, reason: transport close
+[2025-04-07T14:36:37.960Z] [INFO] Disconnected: 7ETIMZlFVUNyaDYNAAAR, reason: transport close
+[2025-04-07T14:36:37.964Z] [INFO] Disconnected: KjTDQiSpRIF5Gxx4AAAQ, reason: transport close
+[2025-04-07T14:36:39.426Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:36:39.426Z] [INFO] New connection: F6l0bwJxhzv6TrQpAAAU (took 0ms)
+[2025-04-07T14:36:39.429Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:36:39.430Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:36:39.430Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:36:39.712Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:36:39.713Z] [INFO] New connection: 5C48V2PJB49yOCzKAAAW (took 0ms)
+[2025-04-07T14:36:39.741Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:36:39.742Z] [INFO] New connection: A2R7vGKCkYNGOPbfAAAX (took 1ms)
+[2025-04-07T14:37:08.518Z] [INFO] Starting WebSocket server...
+[2025-04-07T14:37:08.547Z] [ERROR] Uncaught Exception: listen EADDRINUSE: address already in use 127.0.0.1:6001
+[2025-04-07T14:37:08.548Z] [ERROR] Error: listen EADDRINUSE: address already in use 127.0.0.1:6001
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2025-04-07T14:38:39.972Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.675182342529297,"uptime":300.8431917}
+[2025-04-07T14:40:25.694Z] [INFO] Disconnected: F6l0bwJxhzv6TrQpAAAU, reason: transport close
+[2025-04-07T14:40:29.741Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:40:29.742Z] [INFO] New connection: X3G6wEYfqAA_O_OOAAAZ (took 0ms)
+[2025-04-07T14:40:29.747Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:40:29.748Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:40:29.749Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:40:32.021Z] [INFO] Disconnected: A2R7vGKCkYNGOPbfAAAX, reason: transport close
+[2025-04-07T14:40:32.023Z] [INFO] Disconnected: 5C48V2PJB49yOCzKAAAW, reason: transport close
+[2025-04-07T14:40:32.439Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:40:32.440Z] [INFO] New connection: BtEG0_Z2WsucCoPOAAAb (took 0ms)
+[2025-04-07T14:40:32.561Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:40:32.562Z] [INFO] New connection: jN9wsCZ6Hx2Erd1oAAAd (took 1ms)
+[2025-04-07T14:42:08.531Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.319038391113281,"uptime":300.6512672}
+[2025-04-07T14:42:32.338Z] [INFO] Disconnected: X3G6wEYfqAA_O_OOAAAZ, reason: transport close
+[2025-04-07T14:42:32.806Z] [INFO] Disconnected: jN9wsCZ6Hx2Erd1oAAAd, reason: transport close
+[2025-04-07T14:42:32.807Z] [INFO] Disconnected: BtEG0_Z2WsucCoPOAAAb, reason: transport close
+[2025-04-07T14:42:32.881Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:42:32.882Z] [INFO] New connection: SX_Ov6cRqW_bZUAOAAAf (took 1ms)
+[2025-04-07T14:42:32.884Z] [INFO] User undefined (undefined) joining meeting 19 as teacher
+[2025-04-07T14:42:32.884Z] [INFO] Teacher undefined (undefined) joined meeting 19
+[2025-04-07T14:42:32.884Z] [INFO] No focus data to send to teacher
+[2025-04-07T14:42:33.148Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:42:33.148Z] [INFO] New connection: QiTrAwj2YJf_tLo3AAAh (took 0ms)
+[2025-04-07T14:42:33.286Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T14:42:33.287Z] [INFO] New connection: Xd51eidlZXNDz6uZAAAj (took 0ms)
+[2025-04-07T14:43:39.986Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.414260864257812,"uptime":600.8586238}
+[2025-04-07T14:47:08.533Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.336177825927734,"uptime":600.6533725}
+[2025-04-07T14:48:39.995Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.589401245117188,"uptime":900.8663882}
+[2025-04-07T14:52:08.539Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.3542633056640625,"uptime":900.6599583}
+[2025-04-07T14:53:40.008Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.764518737792969,"uptime":1200.8801105}
+[2025-04-07T14:57:08.547Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.368465423583984,"uptime":1200.6672053}
+[2025-04-07T14:58:40.018Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.252922058105469,"uptime":1500.8901902}
+[2025-04-07T15:02:08.551Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.372314453125,"uptime":1500.6715737}
+[2025-04-07T15:03:40.032Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.430702209472656,"uptime":1800.9033451}
+[2025-04-07T15:07:08.561Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.382625579833984,"uptime":1800.6814679}
+[2025-04-07T15:08:40.047Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.60641860961914,"uptime":2100.9194085}
+[2025-04-07T15:12:08.576Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.394256591796875,"uptime":2100.6964425}
+[2025-04-07T15:13:40.061Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.781536102294922,"uptime":2400.9327859}
+[2025-04-07T15:17:08.590Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.404167175292969,"uptime":2400.7110666}
+[2025-04-07T15:18:40.069Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.182212829589844,"uptime":2700.9412828}
+[2025-04-07T15:22:08.600Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.414592742919922,"uptime":2700.720686}
+[2025-04-07T15:23:40.081Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.357818603515625,"uptime":3000.952989}
+[2025-04-07T15:27:08.614Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.424713134765625,"uptime":3000.7341036}
+[2025-04-07T15:28:40.097Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.532989501953125,"uptime":3300.9683685}
+[2025-04-07T15:32:08.623Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.4277801513671875,"uptime":3300.7433329}
+[2025-04-07T15:33:40.112Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.710250854492188,"uptime":3600.9840402}
+[2025-04-07T15:37:08.638Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.43060302734375,"uptime":3600.7584026}
+[2025-04-07T15:38:40.117Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.88540267944336,"uptime":3900.9893322}
+[2025-04-07T15:42:08.653Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.4405364990234375,"uptime":3900.7741443}
+[2025-04-07T15:43:40.123Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.26144027709961,"uptime":4200.9951192}
+[2025-04-07T15:47:08.662Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.443244934082031,"uptime":4200.7826986}
+[2025-04-07T15:48:40.127Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.43216323852539,"uptime":4500.9985429}
+[2025-04-07T15:52:08.677Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.445934295654297,"uptime":4500.7974838}
+[2025-04-07T15:53:40.141Z] [INFO] System stats: {"connections":3,"rooms":4,"meetings":0,"users":0,"memoryUsage":8.607803344726562,"uptime":4801.0128165}
+[2025-04-07T15:54:50.548Z] [INFO] Disconnected: Xd51eidlZXNDz6uZAAAj, reason: transport close
+[2025-04-07T15:54:50.559Z] [INFO] Disconnected: QiTrAwj2YJf_tLo3AAAh, reason: transport close
+[2025-04-07T15:54:50.560Z] [INFO] Disconnected: SX_Ov6cRqW_bZUAOAAAf, reason: transport close
+[2025-04-07T17:56:57.372Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":8.680278778076172,"uptime":12198.2914861}
+[2025-04-07T17:56:57.479Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.4486236572265625,"uptime":11989.6475667}
+[2025-04-07T17:57:04.966Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T17:57:04.968Z] [INFO] New connection: 6mOiLRcAbP107CcNAAAl (took 1ms)
+[2025-04-07T17:57:06.433Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T17:57:06.434Z] [INFO] New connection: r835mmI15JR27kgVAAAn (took 1ms)
+[2025-04-07T17:57:06.795Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T17:57:06.796Z] [INFO] New connection: HvKqd-eXsQrWN624AAAp (took 1ms)
+[2025-04-07T17:57:27.179Z] [INFO] Disconnected: 6mOiLRcAbP107CcNAAAl, reason: transport close
+[2025-04-07T17:58:03.181Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T17:58:03.183Z] [INFO] New connection: can9FfVmNebcxMASAAAr (took 0ms)
+[2025-04-07T18:01:57.382Z] [INFO] System stats: {"connections":3,"rooms":3,"meetings":0,"users":0,"memoryUsage":8.20328140258789,"uptime":12498.3016301}
+[2025-04-07T18:01:57.491Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.451316833496094,"uptime":12289.6592087}
+[2025-04-07T18:03:12.027Z] [INFO] Disconnected: can9FfVmNebcxMASAAAr, reason: transport close
+[2025-04-07T18:03:23.750Z] [INFO] Disconnected: r835mmI15JR27kgVAAAn, reason: transport close
+[2025-04-07T18:03:23.856Z] [INFO] Disconnected: HvKqd-eXsQrWN624AAAp, reason: transport close
+[2025-04-07T18:03:24.395Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T18:03:24.396Z] [INFO] New connection: 7u6W7-SKfa05C22pAAAt (took 0ms)
+[2025-04-07T18:03:24.531Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T18:03:24.532Z] [INFO] New connection: R9SdplQ19l7bx7wcAAAv (took 0ms)
+[2025-04-07T18:03:45.581Z] [INFO] Disconnected: R9SdplQ19l7bx7wcAAAv, reason: transport close
+[2025-04-07T18:03:45.589Z] [INFO] Disconnected: 7u6W7-SKfa05C22pAAAt, reason: transport close
+[2025-04-07T18:13:44.915Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":8.362743377685547,"uptime":13205.882557}
+[2025-04-07T18:13:47.088Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.454345703125,"uptime":12999.3038188}
+[2025-04-07T18:13:49.708Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T18:13:49.708Z] [INFO] New connection: WvHAI1qpTY8kyDebAAAx (took 0ms)
+[2025-04-07T18:13:50.052Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T18:13:50.054Z] [INFO] New connection: ekW4PF26nMQgONs5AAAz (took 1ms)
+[2025-04-07T18:13:54.557Z] [INFO] Disconnected: ekW4PF26nMQgONs5AAAz, reason: transport close
+[2025-04-07T18:13:54.558Z] [INFO] Disconnected: WvHAI1qpTY8kyDebAAAx, reason: transport close
+[2025-04-07T18:13:55.219Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T18:13:55.220Z] [INFO] New connection: ghPKIhRCGm-Kdi1eAAA2 (took 0ms)
+[2025-04-07T18:13:55.224Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-07T18:13:55.225Z] [INFO] New connection: Idm94eoi3-A3MT3lAAA3 (took 1ms)
+[2025-04-07T18:18:44.926Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.607982635498047,"uptime":13505.8941485}
+[2025-04-07T18:18:47.091Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.457027435302734,"uptime":13299.307103}
+[2025-04-07T18:23:44.940Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.719879150390625,"uptime":13805.9072781}
+[2025-04-07T18:23:47.094Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.459716796875,"uptime":13599.3099517}
+[2025-04-07T18:28:44.950Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.82651138305664,"uptime":14105.9176051}
+[2025-04-07T18:28:47.096Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.462398529052734,"uptime":13899.3129188}
+[2025-04-07T18:33:44.959Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.93374252319336,"uptime":14405.9261614}
+[2025-04-07T18:33:47.105Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.465091705322266,"uptime":14199.3207489}
+[2025-04-07T18:38:44.958Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.283199310302734,"uptime":14705.9255752}
+[2025-04-07T18:38:47.112Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.467784881591797,"uptime":14499.3277961}
+[2025-04-07T18:43:44.965Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.398361206054688,"uptime":15005.9327382}
+[2025-04-07T18:43:47.113Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.470478057861328,"uptime":14799.3297135}
+[2025-04-07T18:48:44.979Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.5050048828125,"uptime":15305.9468879}
+[2025-04-07T18:48:47.113Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.473171234130859,"uptime":15099.3295859}
+[2025-04-07T18:53:44.989Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.613162994384766,"uptime":15605.9562437}
+[2025-04-07T18:53:47.115Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.475864410400391,"uptime":15399.3311084}
+[2025-04-07T18:58:45.001Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.71884536743164,"uptime":15905.9677936}
+[2025-04-07T18:58:47.120Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.478557586669922,"uptime":15699.3356146}
+[2025-04-07T19:03:45.008Z] [INFO] System stats: {"connections":2,"rooms":2,"meetings":0,"users":0,"memoryUsage":8.85605239868164,"uptime":16205.9752848}
+[2025-04-07T19:03:47.140Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.481250762939453,"uptime":15999.356172}
+[2025-04-07T19:07:38.998Z] [INFO] Disconnected: Idm94eoi3-A3MT3lAAA3, reason: transport close
+[2025-04-07T19:07:39.002Z] [INFO] Disconnected: ghPKIhRCGm-Kdi1eAAA2, reason: transport close
+[2025-04-08T09:52:45.958Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":8.941410064697266,"uptime":69546.9741966}
+[2025-04-08T09:52:45.985Z] [INFO] System stats: {"connections":0,"rooms":0,"meetings":0,"users":0,"memoryUsage":7.483940124511719,"uptime":69338.2488463}
+[2025-04-08T09:52:52.524Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-08T09:52:52.536Z] [INFO] New connection: LEgPZeLpChvhUiOjAAA6 (took 1ms)
+[2025-04-08T09:52:52.689Z] [INFO] Connection attempt from 127.0.0.1 (transport: websocket)
+[2025-04-08T09:52:52.846Z] [INFO] New connection: v1r2jfo0eeG_y1OfAAA7 (took 0ms)
+[2025-04-08T09:52:54.667Z] [INFO] Disconnected: LEgPZeLpChvhUiOjAAA6, reason: transport close
+[2025-04-08T09:52:54.669Z] [INFO] Disconnected: v1r2jfo0eeG_y1OfAAA7, reason: transport close
